@@ -1,0 +1,24 @@
+.navbar-spacer {
+  flex: 1 1 auto;
+}
+.giant-icon {
+  transition-duration: 2000mx;
+
+  transform: scale(2);
+}
+.custom-icon-size {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  .mat-icon {
+    font-size: 36px;
+    width: 36px;
+    height: 36px;
+    &:hover {
+      color: blue;
+    }
+  }
+}

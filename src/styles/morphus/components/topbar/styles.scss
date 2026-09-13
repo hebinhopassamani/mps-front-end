@@ -1,0 +1,12 @@
+.topbar-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  width: 100%;  
+  height: var(--mps-topbar-height);
+
+  .mat-toolbar {
+    background-color: var(--mat-sys-primary-container);
+  }
+}

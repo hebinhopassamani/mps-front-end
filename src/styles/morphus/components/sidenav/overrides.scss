@@ -1,0 +1,16 @@
+@use '@angular/material' as mat;
+
+html {
+  @include mat.sidenav-overrides(
+    (
+      container-shape: var(--mat-sys-corner-small),
+      container-background-color: var(--mat-sys-primary-container),
+      container-text-color: var(var(--mat-sys-on-inverse-primary-container)),
+      container-elevation-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75),
+      container-divider-color: blue,
+      content-background-color: var(--mad-sys-surface-container-highest),
+      content-text-color: purple,
+      scrim-color: color-mix(in srgb, var(--mat-sys-primary) 90%, transparent),
+    )
+  );
+}

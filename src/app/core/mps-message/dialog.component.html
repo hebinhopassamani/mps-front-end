@@ -1,0 +1,30 @@
+<div class="morphus-dialog-title flex flex-row items-center justify-start">
+  <span [style.color]="data?.iconColor" class="material-symbols-rounded text-[35px] ml-4">{{ data?.icon }}</span>
+  <h2 class="mt-1">{{ data?.title }}</h2>
+</div>
+<hr class="title-row" />
+<mat-dialog-content>
+  <span class="morphus-dialog-content h-full flex flex-col justify-center items-center">
+    <span class="h-full flex-auto flex flex-col justify-center items-center">
+      <p class="messagem">{{ data?.message }}</p>
+    </span>
+    @if (data.actionConfig?.dobbleConfirmation) {
+      <mat-checkbox class="self-start" [checked]="confirm" (change)="onConfirmChange($event.checked)">
+        <p class="font-mono text-md font-semibold message">{{ data?.actionConfig?.dobbleConfirmationMessage }}</p>
+      </mat-checkbox>
+    }
+  </span>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  @if (data.actionConfig) {
+    <button mat-raised-button [class]="`${data?.actionConfig?.actionSeverity} mps-button h-10 min-w-32 text-xl`" [disabled]="!confirm" (click)="onConfirm()">
+      <span class="material-symbols-rounded">{{ data?.actionConfig?.actionIcon }}</span>
+      {{ data?.actionConfig?.actionText }}
+    </button>
+  }
+  <button mat-raised-button [class]="`${data?.closeSeverity} mps-button h-10 min-w-32 text-xl`" (click)="onclose()">
+    <span class="material-symbols-rounded">{{ data?.closeIcon }}</span>
+    <span>{{ data.closeText }}</span>
+  </button>
+</mat-dialog-actions>

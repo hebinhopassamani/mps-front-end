@@ -1,0 +1,39 @@
+<button
+  matIconButton="elevated"
+  class="morphus-button surface h-12 w-14 size-10"
+  [matTooltip]="'Usar o Translate'"
+  matTooltipClass="mps-mat-tool-tip"
+  matTooltipPosition="below"
+  [matTooltipShowDelay]="toolTipDelay"
+  (click)="back()">
+  <mat-icon>chevron_backward</mat-icon>
+</button>
+<div class="mps-header-title">
+  <mat-icon>{{ icon() }}</mat-icon>
+  <span [style.color]="severity()" class="title">{{ title() }}</span>
+</div>
+@if (title() == 'list') {
+  <div class="mps-header-action">
+    <button
+      matIconButton="elevated"
+      class="morphus-button tertiary h-12 w-14 size-10"
+      [matTooltip]="'Translate'"
+      matTooltipClass="mps-mat-tool-tip"
+      matTooltipPosition="below"
+      [matTooltipShowDelay]="toolTipDelay"
+      (click)="newEntity()">
+      <span class="material-symbols-rounded text-[36px]">add</span>
+    </button>
+    <button
+      matIconButton="elevated"
+      class="morphus-button secondary h-12 w-14 size-10"
+      [matTooltip]="'Translate'"
+      matTooltipClass="mps-mat-tool-tip"
+      matTooltipPosition="below"
+      [matTooltipShowDelay]="toolTipDelay">
+      <span class="material-symbols-rounded text-[36px]">filter_alt</span>
+    </button>
+  </div>
+} @else {
+  <div class="mps-header-action"></div>
+}

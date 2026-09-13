@@ -1,0 +1,11 @@
+<mps-page>
+  <ng-template #header>
+    <mps-header type="list" [title]="'Translate'" titleIcon="apartment" (backClick)="back()" (newEntityClick)="newEntity()"></mps-header>
+  </ng-template>
+  <ng-template #content>
+    <div style="display: flex; flex-direction: column; justify-content: center; height: 100%">
+      <button mat-fab style="font-size: 18px; width: 90px" (click)="butonClique()">Acionar</button>
+    </div>
+  </ng-template>
+  <ng-template #footer></ng-template>
+</mps-page>

@@ -1,0 +1,63 @@
+:root {
+  --mps-dialog-font-family: var(--mps-default-font-family);
+  --mps-dialog-title-font-size: var(--text-2xl);
+  --mps-dialog-title-font-bold: var(--font-weight-bold);
+  --mps-dialog-message-font-size: var(--text-2xl) !important;
+  --mps-dialog-message-font-bold: var(--font-weight-semibold);
+
+  .surface {
+    --mps-dialog-container: var(--mat-sys-surface-container-highest);
+    --mps-on-dialog-container: var(--mat-sys-on-surface);
+    --mps-dialog-title-container: var(--mat-sys-surface-container-high);
+    --mps-on-dialog-title-container: var(--mat-sys-on-surface);
+    --mps-dialog-border: var(--mat-sys-on-surface-variant);
+    --mps-dialog-title-row: var(--mat-sys-on-surface-variant);
+  }
+
+  .primary {
+    --mps-dialog-container: var(--mat-sys-primary-container);
+    --mps-on-dialog-container: var(---mat-sys-on-primary-container);
+    --mps-dialog-title-container: var(--mat-sys-primary-fixed-dim);
+    --mps-on-dialog-title-container: var(--mat-sys-on-primary-fixed-variant);
+    --mps-dialog-border: var(--mat-sys-on-primary-fixed-variant);
+    --mps-dialog-title-row: var(--mat-sys-on-primary-fixed-variant);
+  }
+
+  .secondary {
+    --mps-dialog-container: var(--mat-sys-secondary-container);
+    --mps-on-dialog-container: var(---mat-sys-on-secondary-container);
+    --mps-dialog-title-container: var(--mat-sys-secondary-fixed-dim);
+    --mps-on-dialog-title-container: var(--mat-sys-on-secondary-fixed-variant);
+    --mps-dialog-border: var(--mat-sys-on-secondary-fixed-variant);
+    --mps-dialog-title-row: var(--mat-sys-on-secondary-fixed-variant);
+  }
+
+  .tertiary {
+    --mps-dialog-container: var(--mat-sys-tertiary-container);
+    --mps-on-dialog-container: var(---mat-sys-on-tertiary-container);
+    --mps-dialog-title-container: var(--mat-sys-tertiary-fixed-dim);
+    --mps-on-dialog-title-container: var(--mat-sys-on-tertiary-fixed-variant);
+    --mps-dialog-border: var(--mat-sys-on-tertiary-fixed-variant);
+    --mps-dialog-title-row: var(--mat-sys-on-tertiary-fixed-variant);
+  }
+
+  .error {
+    --mps-dialog-container: var(--mat-sys-error-container);
+    --mps-on-dialog-container: var(--mat-sys-on-error-container);
+    --mps-dialog-title-container: var(--mat-sys-on-error);
+    --mps-on-dialog-title-container: var(--mat-sys-on-error-container);
+    --mps-dialog-border: var(--mat-sys-error);
+    --mps-dialog-title-row: var(--mat-sys-error);
+  }
+
+  .warn,
+  .info,
+  .success {
+    --mps-dialog-container: var(--mat-sys-primary-container);
+    --mps-on-dialog-container: var(---mat-sys-on-primary-container);
+    --mps-dialog-title-container: var(--mat-sys-primary-fixed-dim);
+    --mps-on-dialog-title-container: var(--mat-sys-on-primary-fixed-variant);
+    --mps-dialog-border: var(--mat-sys-on-primary-fixed-variant);
+    --mps-dialog-title-row: var(--mat-sys-on-primary-fixed-variant);
+  }
+}

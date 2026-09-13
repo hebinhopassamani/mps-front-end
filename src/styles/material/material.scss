@@ -1,0 +1,42 @@
+@use '@angular/material' as mat;
+
+body {
+  color-scheme: light;
+}
+
+html {
+  height: 100%;
+  color-scheme: light dark;
+  @include mat.theme(
+    (
+      color: mat.$violet-palette,
+      typography: Roboto,
+      density: 0,
+    ),
+    $overrides: (mps-container: orange)
+  );
+}
+
+.morphus-green {
+  @include mat.theme(
+    (
+      color: mat.$green-palette,
+    )
+  );
+}
+
+.morphus-blue {
+  @include mat.theme(
+    (
+      color: mat.$blue-palette,
+    )
+  );
+}
+
+.morphus-orange {
+  @include mat.theme(
+    (
+      color: mat.$orange-palette,
+    )
+  );
+}

@@ -1,0 +1,20 @@
+{
+  "printWidth": 140,
+  "singleAttributePerLine": false,
+  "bracketSameLine": true, 
+  "htmlWhitespaceSensitivity": "ignore", 
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "bracketSpacing": false,
+  "arrowParens": "avoid",
+  "overrides": [
+    {
+      "files": "*.html",
+      "options": {
+        "parser": "angular"
+      }
+    }
+  ]
+}

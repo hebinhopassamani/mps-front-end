@@ -1,0 +1,7 @@
+<mat-sidenav-container class="mps-sidenav-container" [hasBackdrop]="hasBackdrop()">
+  <mat-sidenav class="mps-sidenav" #sidenav [mode]="mode()" [(opened)]="visible"></mat-sidenav>
+  <mat-sidenav-content class="mps-sidenav-content">
+    <mps-toolbar (onToggle)="sidenav.toggle()"></mps-toolbar>
+    <router-outlet />
+  </mat-sidenav-content>
+</mat-sidenav-container>

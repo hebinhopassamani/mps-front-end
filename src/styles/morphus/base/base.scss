@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  background-color: var(--mat-sys-surface);
+  color: var(--mat-sys-on-surface);
+  font: var(--mat-sys-body-medium);
+
+  .app-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    flex: 1 1 auto;
+    min-height: 100%;
+    width: 100%;
+
+    .mps-sidenav-container {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+
+      .mps-sidenav {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+      }
+
+      .mps-sidenav-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        height: 100%;
+
+        //* Este css é aplicado a todos os componentes (:host) *//
+        //* Isso pois eles são rendenizados logo após *//
+        //* a tag  router-outlet, este seletor aplica *//
+        //* o estilo ao próximo elemento irmão o host do Componente*//
+        router-outlet + * {
+          display: flex;
+          flex-direction: column;
+          justify-content: start;
+          align-items: center;
+          flex: 1 1 auto;         
+          width: 100%;               
+        }
+      }
+    }
+  }
+}
