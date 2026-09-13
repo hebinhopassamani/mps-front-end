@@ -10,7 +10,7 @@ import {ActionResult, MessageConfig} from '@core/mps-message/dialog.interface';
   templateUrl: './dialog.component.html',
   styleUrl: './dialog.component.scss',
   standalone: true,
-  imports: [MatDialogModule, MatButtonModule, MatIconModule, MatCheckboxModule],
+  imports: [MatDialogModule, MatButtonModule, MatIconModule, MatCheckboxModule, MatIconModule],
 })
 export class MpsMessageComponent {
   public dialogRef = inject(MatDialogRef<MpsMessageComponent>);
@@ -20,7 +20,7 @@ export class MpsMessageComponent {
   onConfirm() {
     this.dialogRef.close({resultType: 'confirm', data: this.data?.modalConfig?.data} as ActionResult);
   }
-  
+
   onclose() {
     this.dialogRef.close({resultType: 'close', data: undefined} as ActionResult);
   }

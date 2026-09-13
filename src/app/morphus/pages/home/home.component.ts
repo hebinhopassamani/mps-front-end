@@ -15,7 +15,7 @@ export class MpsHomeComponent {
   messageService = inject(MpsMessageService);
 
   butonClique() {
-    this.messageService.showTertiary('teste', 'Mensagem');
+    this.messageService.showInfo('teste');
   }
 
   back() {}

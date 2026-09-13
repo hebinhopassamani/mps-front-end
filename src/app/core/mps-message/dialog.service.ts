@@ -44,12 +44,7 @@ export class MpsMessageService {
     return this.showMessage('Ops, algo saiu errado', message, 'error', {});
   }
 
-  public showMessage(
-    title: string,
-    message: string,
-    severity?: MessageSeverity,
-    config?: MessageConfig
-  ): MatDialogRef<MpsMessageComponent, any> {
+  public showMessage(title: string, message: string, severity?: MessageSeverity, config?: MessageConfig): MatDialogRef<MpsMessageComponent, any> {
     const dialogRef = this.matDialogService.open(MpsMessageComponent, {
       width: config?.modalConfig?.width ?? '500px',
       height: config?.modalConfig?.height ?? '300px',
@@ -62,8 +57,7 @@ export class MpsMessageService {
         title: title,
         message: message,
         dobbleConfirmation: config?.actionConfig?.dobbleConfirmation ?? false,
-        dobbleConfirmationMessage:
-          config?.actionConfig?.dobbleConfirmationMessage ?? 'Estou ciente que não haverá como reverter esta ação!',
+        dobbleConfirmationMessage: config?.actionConfig?.dobbleConfirmationMessage ?? 'Estou ciente que não haverá como reverter esta ação!',
         icon: severityIcon(severity),
         iconColor: config?.iconColor,
         closeSeverity: closeSeveity(config?.closeSeverity),
@@ -76,9 +70,7 @@ export class MpsMessageService {
       },
     });
 
-    dialogRef.addPanelClass(
-      severity == 'info' ? 'morphus-blue' : severity == 'warn' ? 'morphus-orange' : severity == 'success' ? 'morphus-green' : ''
-    );
+    dialogRef.addPanelClass(severity == 'info' ? 'morphus-blue' : severity == 'warn' ? 'morphus-orange' : severity == 'success' ? 'morphus-green' : '');
 
     if (config?.timeout) {
       setTimeout(() => {

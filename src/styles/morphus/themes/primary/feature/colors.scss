@@ -1,0 +1,635 @@
+:root {
+  /* ----------------------- SURFACE COLORS -----------------------> */
+  --mps-sys-surface-25: light-dark(var(--mps-sys-grey-25), var(--mps-sys-grey-25));
+  --mps-sys-surface-50: light-dark(var(--mps-sys-grey-50), var(--mps-sys-grey-50));
+  --mps-sys-surface-100: light-dark(var(--mps-sys-grey-100), var(--mps-sys-grey-100));
+  --mps-sys-surface-200: light-dark(var(--mps-sys-grey-200), var(--mps-sys-grey-200));
+  --mps-sys-surface-300: light-dark(var(--mps-sys-grey-300), var(--mps-sys-grey-300));
+  --mps-sys-surface-400: light-dark(var(--mps-sys-grey-400), var(--mps-sys-grey-400));
+  --mps-sys-surface-500: light-dark(var(--mps-sys-grey-500), var(--mps-sys-grey-500));
+  --mps-sys-surface-600: light-dark(var(--mps-sys-grey-600), var(--mps-sys-grey-600));
+  --mps-sys-surface-700: light-dark(var(--mps-sys-grey-700), var(--mps-sys-grey-700));
+  --mps-sys-surface-800: light-dark(var(--mps-sys-grey-800), var(--mps-sys-grey-800));
+  --mps-sys-surface-900: light-dark(var(--mps-sys-grey-900), var(--mps-sys-grey-900));
+  --mps-sys-surface-925: light-dark(var(--mps-sys-grey-925), var(--mps-sys-grey-925));
+  --mps-sys-surface-950: light-dark(var(--mps-sys-grey-950), var(--mps-sys-grey-950));
+  --mps-sys-surface-A100: light-dark(var(--mps-sys-grey-A100), var(--mps-sys-grey-A100));
+  --mps-sys-surface-A200: light-dark(var(--mps-sys-grey-A200), var(--mps-sys-grey-A200));
+  --mps-sys-surface-A400: light-dark(var(--mps-sys-grey-A400), var(--mps-sys-grey-A400));
+  --mps-sys-surface-A700: light-dark(var(--mps-sys-grey-A700), var(--mps-sys-grey-A700));
+
+  --mps-sys-surface: light-dark(var(--mps-sys-grey-300), var(--mps-sys-grey-300));
+  --mps-sys-on-surface: light-dark(var(--mps-sys-black), var(--mps-sys-black));
+  --mps-sys-surface-dim: light-dark(var(--mps-sys-grey-600), var(--mps-sys-grey-600));
+  --mps-sys-on-surface-dim: light-dark(var(--mps-sys-black), var(--mps-sys-black));
+  --mps-sys-surface-bright: light-dark(var(--mps-sys-grey-100), var(--mps-sys-grey-100));
+  --mps-sys-on-surface-bright: light-dark(var(--mps-sys-black), var(--mps-sys-black));
+  --mps-sys-surface-container: light-dark(var(--mps-sys-grey-400), var(--mps-sys-grey-400));
+  --mps-sys-on-surface-container: light-dark(var(--mps-sys-black), var(--mps-sys-black));
+  --mps-sys-surface-container-lowest: light-dark(var(--mps-sys-grey-25), var(--mps-sys-grey-25));
+  --mps-sys-on-surface-container-lowest: light-dark(var(--mps-sys-black), var(--mps-sys-black));
+  --mps-sys-surface-container-low: light-dark(var(--mps-sys-grey-200), var(--mps-sys-grey-200));
+  --mps-sys-on-surface-container-low: light-dark(var(--mps-sys-grey-800), var(--mps-sys-grey-800));
+  --mps-sys-surface-container-hight: light-dark(var(--mps-sys-grey-500), var(--mps-sys-grey-500));
+  --mps-sys-on-surface-container-hight: light-dark(var(--mps-sys-black), var(--mps-sys-black));
+  --mps-sys-surface-container-highest: light-dark(var(--mps-sys-grey-700), var(--mps-sys-grey-700));
+  --mps-sys-on-surface-container-highest: light-dark(var(--mps-sys-black), var(--mps-sys-black));
+  --mps-sys-on-surface-variant: light-dark(var(--mps-sys-gray-800), var(--mps-sys-gray-800));
+  --mps-sys-inverse-surface: light-dark(var(--mps-sys-black), var(--mps-sys-black));
+  --mps-sys-on-inverse-surface: light-dark(var(--mps-sys-grey-300), var(--mps-sys-grey-300));
+  --mps-sys-outline: light-dark(var(--mps-sys-gray-600), var(--mps-sys-gray-600));
+  --mps-sys-on-outline: light-dark(var(--mps-sys-gray-200), var(--mps-sys-gray-200));
+  --mps-sys-outline-variante: light-dark(var(--mps-sys-gray-A400), var(--mps-sys-gray-A400));
+  --mps-sys-on-outline-variante: light-dark(var(--mps-sys-black), var(--mps-sys-black));
+
+  /* <---------------------- PRIMARY COLORS ---------------------------> */
+  --mps-sys-primary-25: light-dark(var(--mps-sys-primary-25), var(--mps-sys-primary-25));
+  --mps-sys-primary-50: light-dark(var(--mps-sys-primary-50), var(--mps-sys-primary-50));
+  --mps-sys-primary-100: light-dark(var(--mps-sys-primary-100), var(--mps-sys-primary-100));
+  --mps-sys-primary-200: light-dark(var(--mps-sys-primary-200), var(--mps-sys-primary-200));
+  --mps-sys-primary-300: light-dark(var(--mps-sys-primary-300), var(--mps-sys-primary-300));
+  --mps-sys-primary-400: light-dark(var(--mps-sys-primary-400), var(--mps-sys-primary-400));
+  --mps-sys-primary-500: light-dark(var(--mps-sys-primary-500), var(--mps-sys-primary-500));
+  --mps-sys-primary-600: light-dark(var(--mps-sys-primary-600), var(--mps-sys-primary-600));
+  --mps-sys-primary-700: light-dark(var(--mps-sys-primary-700), var(--mps-sys-primary-700));
+  --mps-sys-primary-800: light-dark(var(--mps-sys-primary-800), var(--mps-sys-primary-800));
+  --mps-sys-primary-900: light-dark(var(--mps-sys-primary-900), var(--mps-sys-primary-900));
+  --mps-sys-primary-925: light-dark(var(--mps-sys-primary-925), var(--mps-sys-primary-925));
+  --mps-sys-primary-950: light-dark(var(--mps-sys-primary-950), var(--mps-sys-primary-950));
+  --mps-sys-primary-A100: light-dark(var(--mps-sys-primary-A100), var(--mps-sys-primary-A100));
+  --mps-sys-primary-A200: light-dark(var(--mps-sys-primary-A200), var(--mps-sys-primary-A200));
+  --mps-sys-primary-A400: light-dark(var(--mps-sys-primary-A400), var(--mps-sys-primary-A400));
+  --mps-sys-primary-A700: light-dark(var(--mps-sys-primary-A700), var(--mps-sys-primary-A700));
+
+  --mps-sys-primary: light-dark(var(--mps-sys-primary-600), var(--mps-sys-primary-600));
+  --mps-sys-on-primary: light-dark(var(--mps-sys-primary-25), var(--mps-sys-primary-25));
+  --mps-sys-primary-container: light-dark(var(--mps-sys-primary-400), var(--mps-sys-primary-400));
+  --mps-sys-on-primary-container: light-dark(var(--mps-sys-primary-700), var(--mps-sys-primary-700));
+  --mps-sys-primary-fixed: light-dark(var(--mps-sys-primary-500), var(--mps-sys-primary-500));
+  --mps-sys-on-primary-fixed: light-dark(var(--mps-sys-primary-950), var(--mps-sys-primary-950));
+  --mps-sys-primary-fixed-dim: light-dark(var(--mps-sys-primary-600), var(--mps-sys-primary-600));
+  --mps-sys-on-primary-fixed-dim: light-dark(var(--mps-sys-primary-950), var(--mps-sys-primary-950));
+
+  /* <----------------------------- SECONDARY COLORS ---------------------------> */
+  --mps-sys-secondary-25: light-dark(var(--mps-sys-secondary-25), var(--mps-sys-secondary-25));
+  --mps-sys-secondary-50: light-dark(var(--mps-sys-secondary-50), var(--mps-sys-secondary-50));
+  --mps-sys-secondary-100: light-dark(var(--mps-sys-secondary-100), var(--mps-sys-secondary-100));
+  --mps-sys-secondary-200: light-dark(var(--mps-sys-secondary-200), var(--mps-sys-secondary-200));
+  --mps-sys-secondary-300: light-dark(var(--mps-sys-secondary-300), var(--mps-sys-secondary-300));
+  --mps-sys-secondary-400: light-dark(var(--mps-sys-secondary-400), var(--mps-sys-secondary-400));
+  --mps-sys-secondary-500: light-dark(var(--mps-sys-secondary-500), var(--mps-sys-secondary-500));
+  --mps-sys-secondary-600: light-dark(var(--mps-sys-secondary-600), var(--mps-sys-secondary-600));
+  --mps-sys-secondary-700: light-dark(var(--mps-sys-secondary-700), var(--mps-sys-secondary-700));
+  --mps-sys-secondary-800: light-dark(var(--mps-sys-secondary-800), var(--mps-sys-secondary-800));
+  --mps-sys-secondary-900: light-dark(var(--mps-sys-secondary-900), var(--mps-sys-secondary-900));
+  --mps-sys-secondary-925: light-dark(var(--mps-sys-secondary-925), var(--mps-sys-secondary-925));
+  --mps-sys-secondary-950: light-dark(var(--mps-sys-secondary-950), var(--mps-sys-secondary-950));
+  --mps-sys-secondary-A100: light-dark(var(--mps-sys-secondary-A100), var(--mps-sys-secondary-A100));
+  --mps-sys-secondary-A200: light-dark(var(--mps-sys-secondary-A200), var(--mps-sys-secondary-A200));
+  --mps-sys-secondary-A400: light-dark(var(--mps-sys-secondary-A400), var(--mps-sys-secondary-A400));
+  --mps-sys-secondary-A700: light-dark(var(--mps-sys-secondary-A700), var(--mps-sys-secondary-A700));
+
+  --mps-sys-secondary: light-dark(var(--mps-sys-secondary-600), var(--mps-sys-secondary-600));
+  --mps-sys-on-secondary: light-dark(var(--mps-sys-secondary-25), var(--mps-sys-secondary-25));
+  --mps-sys-secondary-container: light-dark(var(--mps-sys-secondary-400), var(--mps-sys-secondary-400));
+  --mps-sys-on-secondary-container: light-dark(var(--mps-sys-secondary-700), var(--mps-sys-secondary-700));
+  --mps-sys-secondary-fixed: light-dark(var(--mps-sys-secondary-500), var(--mps-sys-secondary-500));
+  --mps-sys-on-secondary-fixed: light-dark(var(--mps-sys-secondary-950), var(--mps-sys-secondary-950));
+  --mps-sys-secondary-fixed-dim: light-dark(var(--mps-sys-secondary-600), var(--mps-sys-secondary-600));
+  --mps-sys-on-secondary-fixed-dim: light-dark(var(--mps-sys-secondary-950), var(--mps-sys-secondary-950));
+
+  /* <----------------------------- SECONDARY COLORS ---------------------------> */
+  --mps-sys-tertiary-25: light-dark(var(--mps-sys-tertiary-25), var(--mps-sys-tertiary-25));
+  --mps-sys-tertiary-50: light-dark(var(--mps-sys-tertiary-50), var(--mps-sys-tertiary-50));
+  --mps-sys-tertiary-100: light-dark(var(--mps-sys-tertiary-100), var(--mps-sys-tertiary-100));
+  --mps-sys-tertiary-200: light-dark(var(--mps-sys-tertiary-200), var(--mps-sys-tertiary-200));
+  --mps-sys-tertiary-300: light-dark(var(--mps-sys-tertiary-300), var(--mps-sys-tertiary-300));
+  --mps-sys-tertiary-400: light-dark(var(--mps-sys-tertiary-400), var(--mps-sys-tertiary-400));
+  --mps-sys-tertiary-500: light-dark(var(--mps-sys-tertiary-500), var(--mps-sys-tertiary-500));
+  --mps-sys-tertiary-600: light-dark(var(--mps-sys-tertiary-600), var(--mps-sys-tertiary-600));
+  --mps-sys-tertiary-700: light-dark(var(--mps-sys-tertiary-700), var(--mps-sys-tertiary-700));
+  --mps-sys-tertiary-800: light-dark(var(--mps-sys-tertiary-800), var(--mps-sys-tertiary-800));
+  --mps-sys-tertiary-900: light-dark(var(--mps-sys-tertiary-900), var(--mps-sys-tertiary-900));
+  --mps-sys-tertiary-925: light-dark(var(--mps-sys-tertiary-925), var(--mps-sys-tertiary-925));
+  --mps-sys-tertiary-950: light-dark(var(--mps-sys-tertiary-950), var(--mps-sys-tertiary-950));
+  --mps-sys-tertiary-A100: light-dark(var(--mps-sys-tertiary-A100), var(--mps-sys-tertiary-A100));
+  --mps-sys-tertiary-A200: light-dark(var(--mps-sys-tertiary-A200), var(--mps-sys-tertiary-A200));
+  --mps-sys-tertiary-A400: light-dark(var(--mps-sys-tertiary-A400), var(--mps-sys-tertiary-A400));
+  --mps-sys-tertiary-A700: light-dark(var(--mps-sys-tertiary-A700), var(--mps-sys-tertiary-A700));
+
+  --mps-sys-tertiary: light-dark(var(--mps-sys-tertiary-600), var(--mps-sys-tertiary-600));
+  --mps-sys-on-tertiary: light-dark(var(--mps-sys-tertiary-25), var(--mps-sys-tertiary-25));
+  --mps-sys-tertiary-container: light-dark(var(--mps-sys-tertiary-400), var(--mps-sys-tertiary-400));
+  --mps-sys-on-tertiary-container: light-dark(var(--mps-sys-tertiary-700), var(--mps-sys-tertiary-700));
+  --mps-sys-tertiary-fixed: light-dark(var(--mps-sys-tertiary-500), var(--mps-sys-tertiary-500));
+  --mps-sys-on-tertiary-fixed: light-dark(var(--mps-sys-tertiary-950), var(--mps-sys-tertiary-950));
+  --mps-sys-tertiary-fixed-dim: light-dark(var(--mps-sys-tertiary-600), var(--mps-sys-tertiary-600));
+  --mps-sys-on-tertiary-fixed-dim: light-dark(var(--mps-sys-tertiary-950), var(--mps-sys-tertiary-950));
+
+  /* ----------------------- NEUTRAL COLORS -----------------------> */
+  --mps-sys-neutral-25: light-dark(var(--mps-sys-neutral-25), var(--mps-sys-neutral-25));
+  --mps-sys-neutral-50: light-dark(var(--mps-sys-neutral-50), var(--mps-sys-neutral-50));
+  --mps-sys-neutral-100: light-dark(var(--mps-sys-neutral-100), var(--mps-sys-neutral-100));
+  --mps-sys-neutral-200: light-dark(var(--mps-sys-neutral-200), var(--mps-sys-neutral-200));
+  --mps-sys-neutral-300: light-dark(var(--mps-sys-neutral-300), var(--mps-sys-neutral-300));
+  --mps-sys-neutral-400: light-dark(var(--mps-sys-neutral-400), var(--mps-sys-neutral-400));
+  --mps-sys-neutral-500: light-dark(var(--mps-sys-neutral-500), var(--mps-sys-neutral-500));
+  --mps-sys-neutral-600: light-dark(var(--mps-sys-neutral-600), var(--mps-sys-neutral-600));
+  --mps-sys-neutral-700: light-dark(var(--mps-sys-neutral-700), var(--mps-sys-neutral-700));
+  --mps-sys-neutral-800: light-dark(var(--mps-sys-neutral-800), var(--mps-sys-neutral-800));
+  --mps-sys-neutral-900: light-dark(var(--mps-sys-neutral-900), var(--mps-sys-neutral-900));
+  --mps-sys-neutral-925: light-dark(var(--mps-sys-neutral-925), var(--mps-sys-neutral-925));
+  --mps-sys-neutral-950: light-dark(var(--mps-sys-neutral-950), var(--mps-sys-neutral-950));
+  --mps-sys-neutral-A100: light-dark(var(--mps-sys-neutral-A100), var(--mps-sys-neutral-A100));
+  --mps-sys-neutral-A200: light-dark(var(--mps-sys-neutral-A200), var(--mps-sys-neutral-A200));
+  --mps-sys-neutral-A400: light-dark(var(--mps-sys-neutral-A400), var(--mps-sys-neutral-A400));
+  --mps-sys-neutral-A700: light-dark(var(--mps-sys-neutral-A700), var(--mps-sys-neutral-A700));
+
+  --mps-sys-neutral: light-dark(var(--mps-sys-neutral-600), var(--mps-sys-neutral-600));
+  --mps-sys-on-neutral: light-dark(var(--mps-sys-neutral-25), var(--mps-sys-neutral-25));
+  --mps-sys-neutral-container: light-dark(var(--mps-sys-neutral-400), var(--mps-sys-neutral-400));
+  --mps-sys-on-neutral-container: light-dark(var(--mps-sys-neutral-700), var(--mps-sys-neutral-700));
+  --mps-sys-neutral-fixed: light-dark(var(--mps-sys-neutral-500), var(--mps-sys-neutral-500));
+  --mps-sys-on-neutral-fixed: light-dark(var(--mps-sys-neutral-950), var(--mps-sys-neutral-950));
+  --mps-sys-neutral-fixed-dim: light-dark(var(--mps-sys-neutral-600), var(--mps-sys-neutral-600));
+  --mps-sys-on-neutral-fixed-dim: light-dark(var(--mps-sys-neutral-950), var(--mps-sys-neutral-950));
+
+  /* ----------------------- NEUTRAL VARIANT COLORS -----------------------> */
+  --mps-sys-neutral-variant-25: light-dark(var(--mps-sys-neutral-variant-25), var(--mps-sys-neutral-variant-25));
+  --mps-sys-neutral-variant-50: light-dark(var(--mps-sys-neutral-variant-50), var(--mps-sys-neutral-variant-50));
+  --mps-sys-neutral-variant-100: light-dark(var(--mps-sys-neutral-variant-100), var(--mps-sys-neutral-variant-100));
+  --mps-sys-neutral-variant-200: light-dark(var(--mps-sys-neutral-variant-200), var(--mps-sys-neutral-variant-200));
+  --mps-sys-neutral-variant-300: light-dark(var(--mps-sys-neutral-variant-300), var(--mps-sys-neutral-variant-300));
+  --mps-sys-neutral-variant-400: light-dark(var(--mps-sys-neutral-variant-400), var(--mps-sys-neutral-variant-400));
+  --mps-sys-neutral-variant-500: light-dark(var(--mps-sys-neutral-variant-500), var(--mps-sys-neutral-variant-500));
+  --mps-sys-neutral-variant-600: light-dark(var(--mps-sys-neutral-variant-600), var(--mps-sys-neutral-variant-600));
+  --mps-sys-neutral-variant-700: light-dark(var(--mps-sys-neutral-variant-700), var(--mps-sys-neutral-variant-700));
+  --mps-sys-neutral-variant-800: light-dark(var(--mps-sys-neutral-variant-800), var(--mps-sys-neutral-variant-800));
+  --mps-sys-neutral-variant-900: light-dark(var(--mps-sys-neutral-variant-900), var(--mps-sys-neutral-variant-900));
+  --mps-sys-neutral-variant-925: light-dark(var(--mps-sys-neutral-variant-925), var(--mps-sys-neutral-variant-925));
+  --mps-sys-neutral-variant-950: light-dark(var(--mps-sys-neutral-variant-950), var(--mps-sys-neutral-variant-950));
+  --mps-sys-neutral-variant-A100: light-dark(var(--mps-sys-neutral-variant-A100), var(--mps-sys-neutral-variant-A100));
+  --mps-sys-neutral-variant-A200: light-dark(var(--mps-sys-neutral-variant-A200), var(--mps-sys-neutral-variant-A200));
+  --mps-sys-neutral-variant-A400: light-dark(var(--mps-sys-neutral-variant-A400), var(--mps-sys-neutral-variant-A400));
+  --mps-sys-neutral-variant-A700: light-dark(var(--mps-sys-neutral-variant-A700), var(--mps-sys-neutral-variant-A700));
+
+  --mps-sys-neutral-variant: light-dark(var(--mps-sys-neutral-variant-600), var(--mps-sys-neutral-variant-600));
+  --mps-sys-on-neutral-variant: light-dark(var(--mps-sys-neutral-variant-25), var(--mps-sys-neutral-variant-25));
+  --mps-sys-neutral-variant-container: light-dark(var(--mps-sys-neutral-variant-400), var(--mps-sys-neutral-variant-400));
+  --mps-sys-on-neutral-variant-container: light-dark(var(--mps-sys-neutral-variant-700), var(--mps-sys-neutral-variant-700));
+  --mps-sys-neutral-variant-fixed: light-dark(var(--mps-sys-neutral-variant-500), var(--mps-sys-neutral-variant-500));
+  --mps-sys-on-neutral-variant-fixed: light-dark(var(--mps-sys-neutral-variant-950), var(--mps-sys-neutral-variant-950));
+  --mps-sys-neutral-variant-fixed-dim: light-dark(var(--mps-sys-neutral-variant-600), var(--mps-sys-neutral-variant-600));
+  --mps-sys-on-neutral-variant-fixed-dim: light-dark(var(--mps-sys-neutral-variant-950), var(--mps-sys-neutral-variant-950));
+
+  /* ----------------------- PINK COLORS -----------------------> */
+  --mps-sys-pink-50: light-dark(var(--mps-sys-pink-50), var(--mps-sys-pink-50));
+  --mps-sys-pink-100: light-dark(var(--mps-sys-pink-100), var(--mps-sys-pink-100));
+  --mps-sys-pink-200: light-dark(var(--mps-sys-pink-200), var(--mps-sys-pink-200));
+  --mps-sys-pink-300: light-dark(var(--mps-sys-pink-300), var(--mps-sys-pink-300));
+  --mps-sys-pink-400: light-dark(var(--mps-sys-pink-400), var(--mps-sys-pink-400));
+  --mps-sys-pink-500: light-dark(var(--mps-sys-pink-500), var(--mps-sys-pink-500));
+  --mps-sys-pink-600: light-dark(var(--mps-sys-pink-600), var(--mps-sys-pink-600));
+  --mps-sys-pink-700: light-dark(var(--mps-sys-pink-700), var(--mps-sys-pink-700));
+  --mps-sys-pink-800: light-dark(var(--mps-sys-pink-800), var(--mps-sys-pink-800));
+  --mps-sys-pink-900: light-dark(var(--mps-sys-pink-900), var(--mps-sys-pink-900));
+  --mps-sys-pink-A100: light-dark(var(--mps-sys-pink-A100), var(--mps-sys-pink-A100));
+  --mps-sys-pink-A200: light-dark(var(--mps-sys-pink-A200), var(--mps-sys-pink-A200));
+  --mps-sys-pink-A400: light-dark(var(--mps-sys-pink-A400), var(--mps-sys-pink-A400));
+  --mps-sys-pink-A700: light-dark(var(--mps-sys-pink-A700), var(--mps-sys-pink-A700));
+
+  --mps-sys-pink: light-dark(var(--mps-sys-pink-600), var(--mps-sys-pink-600));
+  --mps-sys-on-pink: light-dark(var(--mps-sys-pink-50), var(--mps-sys-pink-50));
+  --mps-sys-pink-container: light-dark(var(--mps-sys-pink-400), var(--mps-sys-pink-400));
+  --mps-sys-on-pink-container: light-dark(var(--mps-sys-pink-700), var(--mps-sys-pink-700));
+  --mps-sys-pink-fixed: light-dark(var(--mps-sys-pink-500), var(--mps-sys-pink-500));
+  --mps-sys-on-pink-fixed: light-dark(var(--mps-sys-pink-950), var(--mps-sys-pink-950));
+  --mps-sys-pink-fixed-dim: light-dark(var(--mps-sys-pink-600), var(--mps-sys-pink-600));
+  --mps-sys-on-pink-fixed-dim: light-dark(var(--mps-sys-pink-950), var(--mps-sys-pink-950));
+
+  /* ----------------------- PURPLE COLORS -----------------------> */
+  --mps-sys-purple-50: light-dark(var(--mps-sys-purple-50), var(--mps-sys-purple-50));
+  --mps-sys-purple-100: light-dark(var(--mps-sys-purple-100), var(--mps-sys-purple-100));
+  --mps-sys-purple-200: light-dark(var(--mps-sys-purple-200), var(--mps-sys-purple-200));
+  --mps-sys-purple-300: light-dark(var(--mps-sys-purple-300), var(--mps-sys-purple-300));
+  --mps-sys-purple-400: light-dark(var(--mps-sys-purple-400), var(--mps-sys-purple-400));
+  --mps-sys-purple-500: light-dark(var(--mps-sys-purple-500), var(--mps-sys-purple-500));
+  --mps-sys-purple-600: light-dark(var(--mps-sys-purple-600), var(--mps-sys-purple-600));
+  --mps-sys-purple-700: light-dark(var(--mps-sys-purple-700), var(--mps-sys-purple-700));
+  --mps-sys-purple-800: light-dark(var(--mps-sys-purple-800), var(--mps-sys-purple-800));
+  --mps-sys-purple-900: light-dark(var(--mps-sys-purple-900), var(--mps-sys-purple-900));
+  --mps-sys-purple-A100: light-dark(var(--mps-sys-purple-A100), var(--mps-sys-purple-A100));
+  --mps-sys-purple-A200: light-dark(var(--mps-sys-purple-A200), var(--mps-sys-purple-A200));
+  --mps-sys-purple-A400: light-dark(var(--mps-sys-purple-A400), var(--mps-sys-purple-A400));
+  --mps-sys-purple-A700: light-dark(var(--mps-sys-purple-A700), var(--mps-sys-purple-A700));
+
+  --mps-sys-purple: light-dark(var(--mps-sys-purple-600), var(--mps-sys-purple-600));
+  --mps-sys-on-purple: light-dark(var(--mps-sys-purple-50), var(--mps-sys-purple-50));
+  --mps-sys-purple-container: light-dark(var(--mps-sys-purple-400), var(--mps-sys-purple-400));
+  --mps-sys-on-purple-container: light-dark(var(--mps-sys-purple-700), var(--mps-sys-purple-700));
+  --mps-sys-purple-fixed: light-dark(var(--mps-sys-purple-500), var(--mps-sys-purple-500));
+  --mps-sys-on-purple-fixed: light-dark(var(--mps-sys-purple-950), var(--mps-sys-purple-950));
+  --mps-sys-purple-fixed-dim: light-dark(var(--mps-sys-purple-600), var(--mps-sys-purple-600));
+  --mps-sys-on-purple-fixed-dim: light-dark(var(--mps-sys-purple-950), var(--mps-sys-purple-950));
+
+  /* ----------------------- DEEP PURPLE COLORS -----------------------> */
+  --mps-sys-deep-purple-50: light-dark(var(--mps-sys-deep-purple-50), var(--mps-sys-deep-purple-50));
+  --mps-sys-deep-purple-100: light-dark(var(--mps-sys-deep-purple-100), var(--mps-sys-deep-purple-100));
+  --mps-sys-deep-purple-200: light-dark(var(--mps-sys-deep-purple-200), var(--mps-sys-deep-purple-200));
+  --mps-sys-deep-purple-300: light-dark(var(--mps-sys-deep-purple-300), var(--mps-sys-deep-purple-300));
+  --mps-sys-deep-purple-400: light-dark(var(--mps-sys-deep-purple-400), var(--mps-sys-deep-purple-400));
+  --mps-sys-deep-purple-500: light-dark(var(--mps-sys-deep-purple-500), var(--mps-sys-deep-purple-500));
+  --mps-sys-deep-purple-600: light-dark(var(--mps-sys-deep-purple-600), var(--mps-sys-deep-purple-600));
+  --mps-sys-deep-purple-700: light-dark(var(--mps-sys-deep-purple-700), var(--mps-sys-deep-purple-700));
+  --mps-sys-deep-purple-800: light-dark(var(--mps-sys-deep-purple-800), var(--mps-sys-deep-purple-800));
+  --mps-sys-deep-purple-900: light-dark(var(--mps-sys-deep-purple-900), var(--mps-sys-deep-purple-900));
+  --mps-sys-deep-purple-A100: light-dark(var(--mps-sys-deep-purple-A100), var(--mps-sys-deep-purple-A100));
+  --mps-sys-deep-purple-A200: light-dark(var(--mps-sys-deep-purple-A200), var(--mps-sys-deep-purple-A200));
+  --mps-sys-deep-purple-A400: light-dark(var(--mps-sys-deep-purple-A400), var(--mps-sys-deep-purple-A400));
+  --mps-sys-deep-purple-A700: light-dark(var(--mps-sys-deep-purple-A700), var(--mps-sys-deep-purple-A700));
+
+  --mps-sys-deep-purple: light-dark(var(--mps-sys-deep-purple-600), var(--mps-sys-deep-purple-600));
+  --mps-sys-on-deep-purple: light-dark(var(--mps-sys-deep-purple-50), var(--mps-sys-deep-purple-50));
+  --mps-sys-deep-purple-container: light-dark(var(--mps-sys-deep-purple-400), var(--mps-sys-deep-purple-400));
+  --mps-sys-on-deep-purple-container: light-dark(var(--mps-sys-deep-purple-700), var(--mps-sys-deep-purple-700));
+  --mps-sys-deep-purple-fixed: light-dark(var(--mps-sys-deep-purple-500), var(--mps-sys-deep-purple-500));
+  --mps-sys-on-deep-purple-fixed: light-dark(var(--mps-sys-deep-purple-950), var(--mps-sys-deep-purple-950));
+  --mps-sys-deep-purple-fixed-dim: light-dark(var(--mps-sys-deep-purple-600), var(--mps-sys-deep-purple-600));
+  --mps-sys-on-deep-purple-fixed-dim: light-dark(var(--mps-sys-deep-purple-950), var(--mps-sys-deep-purple-950));
+
+  /* ----------------------- INDIGO COLORS -----------------------> */
+
+  --mps-sys-indigo-50: light-dark(var(--mps-sys-indigo-50), var(--mps-sys-indigo-50));
+  --mps-sys-indigo-100: light-dark(var(--mps-sys-indigo-100), var(--mps-sys-indigo-100));
+  --mps-sys-indigo-200: light-dark(var(--mps-sys-indigo-200), var(--mps-sys-indigo-200));
+  --mps-sys-indigo-300: light-dark(var(--mps-sys-indigo-300), var(--mps-sys-indigo-300));
+  --mps-sys-indigo-400: light-dark(var(--mps-sys-indigo-400), var(--mps-sys-indigo-400));
+  --mps-sys-indigo-500: light-dark(var(--mps-sys-indigo-500), var(--mps-sys-indigo-500));
+  --mps-sys-indigo-600: light-dark(var(--mps-sys-indigo-600), var(--mps-sys-indigo-600));
+  --mps-sys-indigo-700: light-dark(var(--mps-sys-indigo-700), var(--mps-sys-indigo-700));
+  --mps-sys-indigo-800: light-dark(var(--mps-sys-indigo-800), var(--mps-sys-indigo-800));
+  --mps-sys-indigo-900: light-dark(var(--mps-sys-indigo-900), var(--mps-sys-indigo-900));
+  --mps-sys-indigo-A100: light-dark(var(--mps-sys-indigo-A100), var(--mps-sys-indigo-A100));
+  --mps-sys-indigo-A200: light-dark(var(--mps-sys-indigo-A200), var(--mps-sys-indigo-A200));
+  --mps-sys-indigo-A400: light-dark(var(--mps-sys-indigo-A400), var(--mps-sys-indigo-A400));
+  --mps-sys-indigo-A700: light-dark(var(--mps-sys-indigo-A700), var(--mps-sys-indigo-A700));
+
+  --mps-sys-indigo: light-dark(var(--mps-sys-indigo-600), var(--mps-sys-indigo-600));
+  --mps-sys-on-indigo: light-dark(var(--mps-sys-indigo-50), var(--mps-sys-indigo-50));
+  --mps-sys-indigo-container: light-dark(var(--mps-sys-indigo-400), var(--mps-sys-indigo-400));
+  --mps-sys-on-indigo-container: light-dark(var(--mps-sys-indigo-700), var(--mps-sys-indigo-700));
+  --mps-sys-indigo-fixed: light-dark(var(--mps-sys-indigo-500), var(--mps-sys-indigo-500));
+  --mps-sys-on-indigo-fixed: light-dark(var(--mps-sys-indigo-950), var(--mps-sys-indigo-950));
+  --mps-sys-indigo-fixed-dim: light-dark(var(--mps-sys-indigo-600), var(--mps-sys-indigo-600));
+  --mps-sys-on-indigo-fixed-dim: light-dark(var(--mps-sys-indigo-950), var(--mps-sys-indigo-950));
+
+  /* ----------------------- LIGHT BLUE COLORS -----------------------> */
+  --mps-sys-light-blue-50: light-dark(var(--mps-sys-light-blue-50), var(--mps-sys-light-blue-50));
+  --mps-sys-light-blue-100: light-dark(var(--mps-sys-light-blue-100), var(--mps-sys-light-blue-100));
+  --mps-sys-light-blue-200: light-dark(var(--mps-sys-light-blue-200), var(--mps-sys-light-blue-200));
+  --mps-sys-light-blue-300: light-dark(var(--mps-sys-light-blue-300), var(--mps-sys-light-blue-300));
+  --mps-sys-light-blue-400: light-dark(var(--mps-sys-light-blue-400), var(--mps-sys-light-blue-400));
+  --mps-sys-light-blue-500: light-dark(var(--mps-sys-light-blue-500), var(--mps-sys-light-blue-500));
+  --mps-sys-light-blue-600: light-dark(var(--mps-sys-light-blue-600), var(--mps-sys-light-blue-600));
+  --mps-sys-light-blue-700: light-dark(var(--mps-sys-light-blue-700), var(--mps-sys-light-blue-700));
+  --mps-sys-light-blue-800: light-dark(var(--mps-sys-light-blue-800), var(--mps-sys-light-blue-800));
+  --mps-sys-light-blue-900: light-dark(var(--mps-sys-light-blue-900), var(--mps-sys-light-blue-900));
+  --mps-sys-light-blue-A100: light-dark(var(--mps-sys-light-blue-A100), var(--mps-sys-light-blue-A100));
+  --mps-sys-light-blue-A200: light-dark(var(--mps-sys-light-blue-A200), var(--mps-sys-light-blue-A200));
+  --mps-sys-light-blue-A400: light-dark(var(--mps-sys-light-blue-A400), var(--mps-sys-light-blue-A400));
+  --mps-sys-light-blue-A700: light-dark(var(--mps-sys-light-blue-A700), var(--mps-sys-light-blue-A700));
+
+  --mps-sys-light-blue: light-dark(var(--mps-sys-light-blue-600), var(--mps-sys-light-blue-600));
+  --mps-sys-on-light-blue: light-dark(var(--mps-sys-light-blue-50), var(--mps-sys-light-blue-50));
+  --mps-sys-light-blue-container: light-dark(var(--mps-sys-light-blue-400), var(--mps-sys-light-blue-400));
+  --mps-sys-on-light-blue-container: light-dark(var(--mps-sys-light-blue-700), var(--mps-sys-light-blue-700));
+  --mps-sys-light-blue-fixed: light-dark(var(--mps-sys-light-blue-500), var(--mps-sys-light-blue-500));
+  --mps-sys-on-light-blue-fixed: light-dark(var(--mps-sys-light-blue-950), var(--mps-sys-light-blue-950));
+  --mps-sys-light-blue-fixed-dim: light-dark(var(--mps-sys-light-blue-600), var(--mps-sys-light-blue-600));
+  --mps-sys-on-light-blue-fixed-dim: light-dark(var(--mps-sys-light-blue-950), var(--mps-sys-light-blue-950));
+
+  /* ----------------------- CYAN COLORS -----------------------> */
+  --mps-sys-cyan-50: light-dark(var(--mps-sys-cyan-50), var(--mps-sys-cyan-50));
+  --mps-sys-cyan-100: light-dark(var(--mps-sys-cyan-100), var(--mps-sys-cyan-100));
+  --mps-sys-cyan-200: light-dark(var(--mps-sys-cyan-200), var(--mps-sys-cyan-200));
+  --mps-sys-cyan-300: light-dark(var(--mps-sys-cyan-300), var(--mps-sys-cyan-300));
+  --mps-sys-cyan-400: light-dark(var(--mps-sys-cyan-400), var(--mps-sys-cyan-400));
+  --mps-sys-cyan-500: light-dark(var(--mps-sys-cyan-500), var(--mps-sys-cyan-500));
+  --mps-sys-cyan-600: light-dark(var(--mps-sys-cyan-600), var(--mps-sys-cyan-600));
+  --mps-sys-cyan-700: light-dark(var(--mps-sys-cyan-700), var(--mps-sys-cyan-700));
+  --mps-sys-cyan-800: light-dark(var(--mps-sys-cyan-800), var(--mps-sys-cyan-800));
+  --mps-sys-cyan-900: light-dark(var(--mps-sys-cyan-900), var(--mps-sys-cyan-900));
+  --mps-sys-cyan-A100: light-dark(var(--mps-sys-cyan-A100), var(--mps-sys-cyan-A100));
+  --mps-sys-cyan-A200: light-dark(var(--mps-sys-cyan-A200), var(--mps-sys-cyan-A200));
+  --mps-sys-cyan-A400: light-dark(var(--mps-sys-cyan-A400), var(--mps-sys-cyan-A400));
+  --mps-sys-cyan-A700: light-dark(var(--mps-sys-cyan-A700), var(--mps-sys-cyan-A700));
+
+  --mps-sys-cyan: light-dark(var(--mps-sys-cyan-600), var(--mps-sys-cyan-600));
+  --mps-sys-on-cyan: light-dark(var(--mps-sys-cyan-50), var(--mps-sys-cyan-50));
+  --mps-sys-cyan-container: light-dark(var(--mps-sys-cyan-400), var(--mps-sys-cyan-400));
+  --mps-sys-on-cyan-container: light-dark(var(--mps-sys-cyan-700), var(--mps-sys-cyan-700));
+  --mps-sys-cyan-fixed: light-dark(var(--mps-sys-cyan-500), var(--mps-sys-cyan-500));
+  --mps-sys-on-cyan-fixed: light-dark(var(--mps-sys-cyan-950), var(--mps-sys-cyan-950));
+  --mps-sys-cyan-fixed-dim: light-dark(var(--mps-sys-cyan-600), var(--mps-sys-cyan-600));
+  --mps-sys-on-cyan-fixed-dim: light-dark(var(--mps-sys-cyan-950), var(--mps-sys-cyan-950));
+
+  /* ----------------------- TEAL COLORS -----------------------> */
+  --mps-sys-teal-50: light-dark(var(--mps-sys-teal-50), var(--mps-sys-teal-50));
+  --mps-sys-teal-100: light-dark(var(--mps-sys-teal-100), var(--mps-sys-teal-100));
+  --mps-sys-teal-200: light-dark(var(--mps-sys-teal-200), var(--mps-sys-teal-200));
+  --mps-sys-teal-300: light-dark(var(--mps-sys-teal-300), var(--mps-sys-teal-300));
+  --mps-sys-teal-400: light-dark(var(--mps-sys-teal-400), var(--mps-sys-teal-400));
+  --mps-sys-teal-500: light-dark(var(--mps-sys-teal-500), var(--mps-sys-teal-500));
+  --mps-sys-teal-600: light-dark(var(--mps-sys-teal-600), var(--mps-sys-teal-600));
+  --mps-sys-teal-700: light-dark(var(--mps-sys-teal-700), var(--mps-sys-teal-700));
+  --mps-sys-teal-800: light-dark(var(--mps-sys-teal-800), var(--mps-sys-teal-800));
+  --mps-sys-teal-900: light-dark(var(--mps-sys-teal-900), var(--mps-sys-teal-900));
+  --mps-sys-teal-A100: light-dark(var(--mps-sys-teal-A100), var(--mps-sys-teal-A100));
+  --mps-sys-teal-A200: light-dark(var(--mps-sys-teal-A200), var(--mps-sys-teal-A200));
+  --mps-sys-teal-A400: light-dark(var(--mps-sys-teal-A400), var(--mps-sys-teal-A400));
+  --mps-sys-teal-A700: light-dark(var(--mps-sys-teal-A700), var(--mps-sys-teal-A700));
+
+  --mps-sys-teal: light-dark(var(--mps-sys-teal-600), var(--mps-sys-teal-600));
+  --mps-sys-on-teal: light-dark(var(--mps-sys-teal-50), var(--mps-sys-teal-50));
+  --mps-sys-teal-container: light-dark(var(--mps-sys-teal-400), var(--mps-sys-teal-400));
+  --mps-sys-on-teal-container: light-dark(var(--mps-sys-teal-700), var(--mps-sys-teal-700));
+  --mps-sys-teal-fixed: light-dark(var(--mps-sys-teal-500), var(--mps-sys-teal-500));
+  --mps-sys-on-teal-fixed: light-dark(var(--mps-sys-teal-950), var(--mps-sys-teal-950));
+  --mps-sys-teal-fixed-dim: light-dark(var(--mps-sys-teal-600), var(--mps-sys-teal-600));
+  --mps-sys-on-teal-fixed-dim: light-dark(var(--mps-sys-teal-950), var(--mps-sys-teal-950));
+
+  /* ----------------------- LIGHT-GREEN COLORS -----------------------> */
+  --mps-sys-light-green-50: light-dark(var(--mps-sys-light-green-50), var(--mps-sys-light-green-50));
+  --mps-sys-light-green-100: light-dark(var(--mps-sys-light-green-100), var(--mps-sys-light-green-100));
+  --mps-sys-light-green-200: light-dark(var(--mps-sys-light-green-200), var(--mps-sys-light-green-200));
+  --mps-sys-light-green-300: light-dark(var(--mps-sys-light-green-300), var(--mps-sys-light-green-300));
+  --mps-sys-light-green-400: light-dark(var(--mps-sys-light-green-400), var(--mps-sys-light-green-400));
+  --mps-sys-light-green-500: light-dark(var(--mps-sys-light-green-500), var(--mps-sys-light-green-500));
+  --mps-sys-light-green-600: light-dark(var(--mps-sys-light-green-600), var(--mps-sys-light-green-600));
+  --mps-sys-light-green-700: light-dark(var(--mps-sys-light-green-700), var(--mps-sys-light-green-700));
+  --mps-sys-light-green-800: light-dark(var(--mps-sys-light-green-800), var(--mps-sys-light-green-800));
+  --mps-sys-light-green-900: light-dark(var(--mps-sys-light-green-900), var(--mps-sys-light-green-900));
+  --mps-sys-light-green-A100: light-dark(var(--mps-sys-light-green-A100), var(--mps-sys-light-green-A100));
+  --mps-sys-light-green-A200: light-dark(var(--mps-sys-light-green-A200), var(--mps-sys-light-green-A200));
+  --mps-sys-light-green-A400: light-dark(var(--mps-sys-light-green-A400), var(--mps-sys-light-green-A400));
+  --mps-sys-light-green-A700: light-dark(var(--mps-sys-light-green-A700), var(--mps-sys-light-green-A700));
+
+  --mps-sys-light-green: light-dark(var(--mps-sys-light-green-600), var(--mps-sys-light-green-600));
+  --mps-sys-on-light-green: light-dark(var(--mps-sys-light-green-50), var(--mps-sys-light-green-50));
+  --mps-sys-light-green-container: light-dark(var(--mps-sys-light-green-400), var(--mps-sys-light-green-400));
+  --mps-sys-on-light-green-container: light-dark(var(--mps-sys-light-green-700), var(--mps-sys-light-green-700));
+  --mps-sys-light-green-fixed: light-dark(var(--mps-sys-light-green-500), var(--mps-sys-light-green-500));
+  --mps-sys-on-light-green-fixed: light-dark(var(--mps-sys-light-green-950), var(--mps-sys-light-green-950));
+  --mps-sys-light-green-fixed-dim: light-dark(var(--mps-sys-light-green-600), var(--mps-sys-light-green-600));
+  --mps-sys-on-light-green-fixed-dim: light-dark(var(--mps-sys-light-green-950), var(--mps-sys-light-green-950));
+
+  /* ----------------------- LIME COLORS -----------------------> */
+  --mps-sys-lime-50: light-dark(var(--mps-sys-lime-50), var(--mps-sys-lime-50));
+  --mps-sys-lime-100: light-dark(var(--mps-sys-lime-100), var(--mps-sys-lime-100));
+  --mps-sys-lime-200: light-dark(var(--mps-sys-lime-200), var(--mps-sys-lime-200));
+  --mps-sys-lime-300: light-dark(var(--mps-sys-lime-300), var(--mps-sys-lime-300));
+  --mps-sys-lime-400: light-dark(var(--mps-sys-lime-400), var(--mps-sys-lime-400));
+  --mps-sys-lime-500: light-dark(var(--mps-sys-lime-500), var(--mps-sys-lime-500));
+  --mps-sys-lime-600: light-dark(var(--mps-sys-lime-600), var(--mps-sys-lime-600));
+  --mps-sys-lime-700: light-dark(var(--mps-sys-lime-700), var(--mps-sys-lime-700));
+  --mps-sys-lime-800: light-dark(var(--mps-sys-lime-800), var(--mps-sys-lime-800));
+  --mps-sys-lime-900: light-dark(var(--mps-sys-lime-900), var(--mps-sys-lime-900));
+  --mps-sys-lime-A100: light-dark(var(--mps-sys-lime-A100), var(--mps-sys-lime-A100));
+  --mps-sys-lime-A200: light-dark(var(--mps-sys-lime-A200), var(--mps-sys-lime-A200));
+  --mps-sys-lime-A400: light-dark(var(--mps-sys-lime-A400), var(--mps-sys-lime-A400));
+  --mps-sys-lime-A700: light-dark(var(--mps-sys-lime-A700), var(--mps-sys-lime-A700));
+
+  --mps-sys-lime: light-dark(var(--mps-sys-lime-600), var(--mps-sys-lime-600));
+  --mps-sys-on-lime: light-dark(var(--mps-sys-lime-50), var(--mps-sys-lime-50));
+  --mps-sys-lime-container: light-dark(var(--mps-sys-lime-400), var(--mps-sys-lime-400));
+  --mps-sys-on-lime-container: light-dark(var(--mps-sys-lime-700), var(--mps-sys-lime-700));
+  --mps-sys-lime-fixed: light-dark(var(--mps-sys-lime-500), var(--mps-sys-lime-500));
+  --mps-sys-on-lime-fixed: light-dark(var(--mps-sys-lime-950), var(--mps-sys-lime-950));
+  --mps-sys-lime-fixed-dim: light-dark(var(--mps-sys-lime-600), var(--mps-sys-lime-600));
+  --mps-sys-on-lime-fixed-dim: light-dark(var(--mps-sys-lime-950), var(--mps-sys-lime-950));
+
+  /* ----------------------- YELLOW COLORS -----------------------> */
+  --mps-sys-yellow-50: light-dark(var(--mps-sys-yellow-50), var(--mps-sys-yellow-50));
+  --mps-sys-yellow-100: light-dark(var(--mps-sys-yellow-100), var(--mps-sys-yellow-100));
+  --mps-sys-yellow-200: light-dark(var(--mps-sys-yellow-200), var(--mps-sys-yellow-200));
+  --mps-sys-yellow-300: light-dark(var(--mps-sys-yellow-300), var(--mps-sys-yellow-300));
+  --mps-sys-yellow-400: light-dark(var(--mps-sys-yellow-400), var(--mps-sys-yellow-400));
+  --mps-sys-yellow-500: light-dark(var(--mps-sys-yellow-500), var(--mps-sys-yellow-500));
+  --mps-sys-yellow-600: light-dark(var(--mps-sys-yellow-600), var(--mps-sys-yellow-600));
+  --mps-sys-yellow-700: light-dark(var(--mps-sys-yellow-700), var(--mps-sys-yellow-700));
+  --mps-sys-yellow-800: light-dark(var(--mps-sys-yellow-800), var(--mps-sys-yellow-800));
+  --mps-sys-yellow-900: light-dark(var(--mps-sys-yellow-900), var(--mps-sys-yellow-900));
+  --mps-sys-yellow-A100: light-dark(var(--mps-sys-yellow-A100), var(--mps-sys-yellow-A100));
+  --mps-sys-yellow-A200: light-dark(var(--mps-sys-yellow-A200), var(--mps-sys-yellow-A200));
+  --mps-sys-yellow-A400: light-dark(var(--mps-sys-yellow-A400), var(--mps-sys-yellow-A400));
+  --mps-sys-yellow-A700: light-dark(var(--mps-sys-yellow-A700), var(--mps-sys-yellow-A700));
+
+  --mps-sys-yellow: light-dark(var(--mps-sys-yellow-600), var(--mps-sys-yellow-600));
+  --mps-sys-on-yellow: light-dark(var(--mps-sys-yellow-50), var(--mps-sys-yellow-50));
+  --mps-sys-yellow-container: light-dark(var(--mps-sys-yellow-400), var(--mps-sys-yellow-400));
+  --mps-sys-on-yellow-container: light-dark(var(--mps-sys-yellow-700), var(--mps-sys-yellow-700));
+  --mps-sys-yellow-fixed: light-dark(var(--mps-sys-yellow-500), var(--mps-sys-yellow-500));
+  --mps-sys-on-yellow-fixed: light-dark(var(--mps-sys-yellow-950), var(--mps-sys-yellow-950));
+  --mps-sys-yellow-fixed-dim: light-dark(var(--mps-sys-yellow-600), var(--mps-sys-yellow-600));
+  --mps-sys-on-yellow-fixed-dim: light-dark(var(--mps-sys-yellow-950), var(--mps-sys-yellow-950));
+
+  /* ----------------------- AMBER COLORS -----------------------> */
+  --mps-sys-amber-50: light-dark(var(--mps-sys-amber-50), var(--mps-sys-amber-50));
+  --mps-sys-amber-100: light-dark(var(--mps-sys-amber-100), var(--mps-sys-amber-100));
+  --mps-sys-amber-200: light-dark(var(--mps-sys-amber-200), var(--mps-sys-amber-200));
+  --mps-sys-amber-300: light-dark(var(--mps-sys-amber-300), var(--mps-sys-amber-300));
+  --mps-sys-amber-400: light-dark(var(--mps-sys-amber-400), var(--mps-sys-amber-400));
+  --mps-sys-amber-500: light-dark(var(--mps-sys-amber-500), var(--mps-sys-amber-500));
+  --mps-sys-amber-600: light-dark(var(--mps-sys-amber-600), var(--mps-sys-amber-600));
+  --mps-sys-amber-700: light-dark(var(--mps-sys-amber-700), var(--mps-sys-amber-700));
+  --mps-sys-amber-800: light-dark(var(--mps-sys-amber-800), var(--mps-sys-amber-800));
+  --mps-sys-amber-900: light-dark(var(--mps-sys-amber-900), var(--mps-sys-amber-900));
+  --mps-sys-amber-A100: light-dark(var(--mps-sys-amber-A100), var(--mps-sys-amber-A100));
+  --mps-sys-amber-A200: light-dark(var(--mps-sys-amber-A200), var(--mps-sys-amber-A200));
+  --mps-sys-amber-A400: light-dark(var(--mps-sys-amber-A400), var(--mps-sys-amber-A400));
+  --mps-sys-amber-A700: light-dark(var(--mps-sys-amber-A700), var(--mps-sys-amber-A700));
+
+  --mps-sys-amber: light-dark(var(--mps-sys-amber-600), var(--mps-sys-amber-600));
+  --mps-sys-on-amber: light-dark(var(--mps-sys-amber-50), var(--mps-sys-amber-50));
+  --mps-sys-amber-container: light-dark(var(--mps-sys-amber-400), var(--mps-sys-amber-400));
+  --mps-sys-on-amber-container: light-dark(var(--mps-sys-amber-700), var(--mps-sys-amber-700));
+  --mps-sys-amber-fixed: light-dark(var(--mps-sys-amber-500), var(--mps-sys-amber-500));
+  --mps-sys-on-amber-fixed: light-dark(var(--mps-sys-amber-950), var(--mps-sys-amber-950));
+  --mps-sys-amber-fixed-dim: light-dark(var(--mps-sys-amber-600), var(--mps-sys-amber-600));
+  --mps-sys-on-amber-fixed-dim: light-dark(var(--mps-sys-amber-950), var(--mps-sys-amber-950));
+
+  /* ----------------------- DEEP-ORANGE COLORS -----------------------> */
+  --mps-sys-deep-orange-50: light-dark(var(--mps-sys-deep-orange-50), var(--mps-sys-deep-orange-50));
+  --mps-sys-deep-orange-100: light-dark(var(--mps-sys-deep-orange-100), var(--mps-sys-deep-orange-100));
+  --mps-sys-deep-orange-200: light-dark(var(--mps-sys-deep-orange-200), var(--mps-sys-deep-orange-200));
+  --mps-sys-deep-orange-300: light-dark(var(--mps-sys-deep-orange-300), var(--mps-sys-deep-orange-300));
+  --mps-sys-deep-orange-400: light-dark(var(--mps-sys-deep-orange-400), var(--mps-sys-deep-orange-400));
+  --mps-sys-deep-orange-500: light-dark(var(--mps-sys-deep-orange-500), var(--mps-sys-deep-orange-500));
+  --mps-sys-deep-orange-600: light-dark(var(--mps-sys-deep-orange-600), var(--mps-sys-deep-orange-600));
+  --mps-sys-deep-orange-700: light-dark(var(--mps-sys-deep-orange-700), var(--mps-sys-deep-orange-700));
+  --mps-sys-deep-orange-800: light-dark(var(--mps-sys-deep-orange-800), var(--mps-sys-deep-orange-800));
+  --mps-sys-deep-orange-900: light-dark(var(--mps-sys-deep-orange-900), var(--mps-sys-deep-orange-900));
+  --mps-sys-deep-orange-A100: light-dark(var(--mps-sys-deep-orange-A100), var(--mps-sys-deep-orange-A100));
+  --mps-sys-deep-orange-A200: light-dark(var(--mps-sys-deep-orange-A200), var(--mps-sys-deep-orange-A200));
+  --mps-sys-deep-orange-A400: light-dark(var(--mps-sys-deep-orange-A400), var(--mps-sys-deep-orange-A400));
+  --mps-sys-deep-orange-A700: light-dark(var(--mps-sys-deep-orange-A700), var(--mps-sys-deep-orange-A700));
+
+  --mps-sys-deep-orange: light-dark(var(--mps-sys-deep-orange-600), var(--mps-sys-deep-orange-600));
+  --mps-sys-on-deep-orange: light-dark(var(--mps-sys-deep-orange-50), var(--mps-sys-deep-orange-50));
+  --mps-sys-deep-orange-container: light-dark(var(--mps-sys-deep-orange-400), var(--mps-sys-deep-orange-400));
+  --mps-sys-on-deep-orange-container: light-dark(var(--mps-sys-deep-orange-700), var(--mps-sys-deep-orange-700));
+  --mps-sys-deep-orange-fixed: light-dark(var(--mps-sys-deep-orange-500), var(--mps-sys-deep-orange-500));
+  --mps-sys-on-deep-orange-fixed: light-dark(var(--mps-sys-deep-orange-950), var(--mps-sys-deep-orange-950));
+  --mps-sys-deep-orange-fixed-dim: light-dark(var(--mps-sys-deep-orange-600), var(--mps-sys-deep-orange-600));
+  --mps-sys-on-deep-orange-fixed-dim: light-dark(var(--mps-sys-deep-orange-950), var(--mps-sys-deep-orange-950));
+
+  /* ----------------------- BROWN COLORS -----------------------> */
+  --mps-sys-brown-50: light-dark(var(--mps-sys-brown-50), var(--mps-sys-brown-50));
+  --mps-sys-brown-100: light-dark(var(--mps-sys-brown-100), var(--mps-sys-brown-100));
+  --mps-sys-brown-200: light-dark(var(--mps-sys-brown-200), var(--mps-sys-brown-200));
+  --mps-sys-brown-300: light-dark(var(--mps-sys-brown-300), var(--mps-sys-brown-300));
+  --mps-sys-brown-400: light-dark(var(--mps-sys-brown-400), var(--mps-sys-brown-400));
+  --mps-sys-brown-500: light-dark(var(--mps-sys-brown-500), var(--mps-sys-brown-500));
+  --mps-sys-brown-600: light-dark(var(--mps-sys-brown-600), var(--mps-sys-brown-600));
+  --mps-sys-brown-700: light-dark(var(--mps-sys-brown-700), var(--mps-sys-brown-700));
+  --mps-sys-brown-800: light-dark(var(--mps-sys-brown-800), var(--mps-sys-brown-800));
+  --mps-sys-brown-900: light-dark(var(--mps-sys-brown-900), var(--mps-sys-brown-900));
+  --mps-sys-brown-A100: light-dark(var(--mps-sys-brown-A100), var(--mps-sys-brown-A100));
+  --mps-sys-brown-A200: light-dark(var(--mps-sys-brown-A200), var(--mps-sys-brown-A200));
+  --mps-sys-brown-A400: light-dark(var(--mps-sys-brown-A400), var(--mps-sys-brown-A400));
+  --mps-sys-brown-A700: light-dark(var(--mps-sys-brown-A700), var(--mps-sys-brown-A700));
+
+  --mps-sys-brown: light-dark(var(--mps-sys-brown-600), var(--mps-sys-brown-600));
+  --mps-sys-on-brown: light-dark(var(--mps-sys-brown-50), var(--mps-sys-brown-50));
+  --mps-sys-brown-container: light-dark(var(--mps-sys-brown-400), var(--mps-sys-brown-400));
+  --mps-sys-on-brown-container: light-dark(var(--mps-sys-brown-700), var(--mps-sys-brown-700));
+  --mps-sys-brown-fixed: light-dark(var(--mps-sys-brown-500), var(--mps-sys-brown-500));
+  --mps-sys-on-brown-fixed: light-dark(var(--mps-sys-brown-950), var(--mps-sys-brown-950));
+  --mps-sys-brown-fixed-dim: light-dark(var(--mps-sys-brown-600), var(--mps-sys-brown-600));
+  --mps-sys-on-brown-fixed-dim: light-dark(var(--mps-sys-brown-950), var(--mps-sys-brown-950));
+
+  /* ----------------------- SUCCESS COLORS -----------------------> */
+  --mps-sys-blue-grey-50: light-dark(var(--mps-sys-blue-grey-50), var(--mps-sys-blue-grey-50));
+  --mps-sys-blue-grey-100: light-dark(var(--mps-sys-blue-grey-100), var(--mps-sys-blue-grey-100));
+  --mps-sys-blue-grey-200: light-dark(var(--mps-sys-blue-grey-200), var(--mps-sys-blue-grey-200));
+  --mps-sys-blue-grey-300: light-dark(var(--mps-sys-blue-grey-300), var(--mps-sys-blue-grey-300));
+  --mps-sys-blue-grey-400: light-dark(var(--mps-sys-blue-grey-400), var(--mps-sys-blue-grey-400));
+  --mps-sys-blue-grey-500: light-dark(var(--mps-sys-blue-grey-500), var(--mps-sys-blue-grey-500));
+  --mps-sys-blue-grey-600: light-dark(var(--mps-sys-blue-grey-600), var(--mps-sys-blue-grey-600));
+  --mps-sys-blue-grey-700: light-dark(var(--mps-sys-blue-grey-700), var(--mps-sys-blue-grey-700));
+  --mps-sys-blue-grey-800: light-dark(var(--mps-sys-blue-grey-800), var(--mps-sys-blue-grey-800));
+  --mps-sys-blue-grey-900: light-dark(var(--mps-sys-blue-grey-900), var(--mps-sys-blue-grey-900));
+  --mps-sys-blue-grey-A100: light-dark(var(--mps-sys-blue-grey-A100), var(--mps-sys-blue-grey-A100));
+  --mps-sys-blue-grey-A200: light-dark(var(--mps-sys-blue-grey-A200), var(--mps-sys-blue-grey-A200));
+  --mps-sys-blue-grey-A400: light-dark(var(--mps-sys-blue-grey-A400), var(--mps-sys-blue-grey-A400));
+  --mps-sys-blue-grey-A700: light-dark(var(--mps-sys-blue-grey-A700), var(--mps-sys-blue-grey-A700));
+
+  --mps-sys-blue-grey: light-dark(var(--mps-sys-blue-grey-600), var(--mps-sys-blue-grey-600));
+  --mps-sys-on-blue-grey: light-dark(var(--mps-sys-blue-grey-50), var(--mps-sys-blue-grey-50));
+  --mps-sys-blue-grey-container: light-dark(var(--mps-sys-blue-grey-400), var(--mps-sys-blue-grey-400));
+  --mps-sys-on-blue-grey-container: light-dark(var(--mps-sys-blue-grey-700), var(--mps-sys-blue-grey-700));
+  --mps-sys-blue-grey-fixed: light-dark(var(--mps-sys-blue-grey-500), var(--mps-sys-blue-grey-500));
+  --mps-sys-on-blue-grey-fixed: light-dark(var(--mps-sys-blue-grey-950), var(--mps-sys-blue-grey-950));
+  --mps-sys-blue-grey-fixed-dim: light-dark(var(--mps-sys-blue-grey-600), var(--mps-sys-blue-grey-600));
+  --mps-sys-on-blue-grey-fixed-dim: light-dark(var(--mps-sys-blue-grey-950), var(--mps-sys-blue-grey-950));
+
+  /* ------------------------- ERROR COLORS ---------------------> */
+  --mps-sys-error-50: light-dark(var(--mps-sys-red-50), var(--mps-sys-red-50));
+  --mps-sys-error-100: light-dark(var(--mps-sys-red-100), var(--mps-sys-red-100));
+  --mps-sys-error-200: light-dark(var(--mps-sys-red-200), var(--mps-sys-red-200));
+  --mps-sys-error-300: light-dark(var(--mps-sys-red-300), var(--mps-sys-red-300));
+  --mps-sys-error-400: light-dark(var(--mps-sys-red-400), var(--mps-sys-red-400));
+  --mps-sys-error-500: light-dark(var(--mps-sys-red-500), var(--mps-sys-red-500));
+  --mps-sys-error-600: light-dark(var(--mps-sys-red-600), var(--mps-sys-red-600));
+  --mps-sys-error-700: light-dark(var(--mps-sys-red-700), var(--mps-sys-red-700));
+  --mps-sys-error-800: light-dark(var(--mps-sys-red-800), var(--mps-sys-red-800));
+  --mps-sys-error-900: light-dark(var(--mps-sys-red-900), var(--mps-sys-red-900));
+  --mps-sys-error-A100: light-dark(var(--mps-sys-red-A100), var(--mps-sys-red-A100));
+  --mps-sys-error-A200: light-dark(var(--mps-sys-red-A200), var(--mps-sys-red-A200));
+  --mps-sys-error-A400: light-dark(var(--mps-sys-red-A400), var(--mps-sys-red-A400));
+  --mps-sys-error-A700: light-dark(var(--mps-sys-red-A700), var(--mps-sys-red-A700));
+
+  --mps-sys-error: light-dark(var(--mps-sys-red-600), var(--mps-sys-red-600));
+  --mps-sys-on-error: light-dark(var(--mps-sys-red-50), var(--mps-sys-red-50));
+  --mps-sys-error-container: light-dark(var(--mps-sys-red-400), var(--mps-sys-red-400));
+  --mps-sys-on-error-container: light-dark(var(--mps-sys-red-700), var(--mps-sys-red-700));
+  --mps-sys-error-fixed: light-dark(var(--mps-sys-red-500), var(--mps-sys-red-500));
+  --mps-sys-on-error-fixed: light-dark(var(--mps-sys-red-950), var(--mps-sys-red-950));
+  --mps-sys-error-fixed-dim: light-dark(var(--mps-sys-red-600), var(--mps-sys-red-600));
+  --mps-sys-on-error-fixed-dim: light-dark(var(--mps-sys-red-950), var(--mps-sys-red-950));
+
+  /* <----------------------------- INFO COLORS ------------------> */
+  --mps-sys-info-50: light-dark(var(--mps-sys-blue-50), var(--mps-sys-blue-50));
+  --mps-sys-info-100: light-dark(var(--mps-sys-blue-100), var(--mps-sys-blue-100));
+  --mps-sys-info-200: light-dark(var(--mps-sys-blue-200), var(--mps-sys-blue-200));
+  --mps-sys-info-300: light-dark(var(--mps-sys-blue-300), var(--mps-sys-blue-300));
+  --mps-sys-info-400: light-dark(var(--mps-sys-blue-400), var(--mps-sys-blue-400));
+  --mps-sys-info-500: light-dark(var(--mps-sys-blue-500), var(--mps-sys-blue-500));
+  --mps-sys-info-600: light-dark(var(--mps-sys-blue-600), var(--mps-sys-blue-600));
+  --mps-sys-info-700: light-dark(var(--mps-sys-blue-700), var(--mps-sys-blue-700));
+  --mps-sys-info-800: light-dark(var(--mps-sys-blue-800), var(--mps-sys-blue-800));
+  --mps-sys-info-900: light-dark(var(--mps-sys-blue-900), var(--mps-sys-blue-900));
+  --mps-sys-info-A100: light-dark(var(--mps-sys-blue-A100), var(--mps-sys-blue-A100));
+  --mps-sys-info-A200: light-dark(var(--mps-sys-blue-A200), var(--mps-sys-blue-A200));
+  --mps-sys-info-A400: light-dark(var(--mps-sys-blue-A400), var(--mps-sys-blue-A400));
+  --mps-sys-info-A700: light-dark(var(--mps-sys-blue-A700), var(--mps-sys-blue-A700));
+
+  --mps-sys-info: light-dark(var(--mps-sys-blue-600), var(--mps-sys-blue-600));
+  --mps-sys-on-info: light-dark(var(--mps-sys-blue-50), var(--mps-sys-blue-50));
+  --mps-sys-info-container: light-dark(var(--mps-sys-blue-400), var(--mps-sys-blue-400));
+  --mps-sys-on-info-container: light-dark(var(--mps-sys-blue-700), var(--mps-sys-blue-700));
+  --mps-sys-info-fixed: light-dark(var(--mps-sys-blue-500), var(--mps-sys-blue-500));
+  --mps-sys-on-info-fixed: light-dark(var(--mps-sys-blue-950), var(--mps-sys-blue-950));
+  --mps-sys-info-fixed-dim: light-dark(var(--mps-sys-blue-600), var(--mps-sys-blue-600));
+  --mps-sys-on-info-fixed-dim: light-dark(var(--mps-sys-blue-950), var(--mps-sys-blue-950));
+
+  /* ----------------------- WARN COLORS -----------------------> */
+  --mps-sys-warn-50: light-dark(var(--mps-sys-orange-50), var(--mps-sys-orange-50));
+  --mps-sys-warn-100: light-dark(var(--mps-sys-orange-100), var(--mps-sys-orange-100));
+  --mps-sys-warn-200: light-dark(var(--mps-sys-orange-200), var(--mps-sys-orange-200));
+  --mps-sys-warn-300: light-dark(var(--mps-sys-orange-300), var(--mps-sys-orange-300));
+  --mps-sys-warn-400: light-dark(var(--mps-sys-orange-400), var(--mps-sys-orange-400));
+  --mps-sys-warn-500: light-dark(var(--mps-sys-orange-500), var(--mps-sys-orange-500));
+  --mps-sys-warn-600: light-dark(var(--mps-sys-orange-600), var(--mps-sys-orange-600));
+  --mps-sys-warn-700: light-dark(var(--mps-sys-orange-700), var(--mps-sys-orange-700));
+  --mps-sys-warn-800: light-dark(var(--mps-sys-orange-800), var(--mps-sys-orange-800));
+  --mps-sys-warn-900: light-dark(var(--mps-sys-orange-900), var(--mps-sys-orange-900));
+  --mps-sys-warn-A100: light-dark(var(--mps-sys-orange-A100), var(--mps-sys-orange-A100));
+  --mps-sys-warn-A200: light-dark(var(--mps-sys-orange-A200), var(--mps-sys-orange-A200));
+  --mps-sys-warn-A400: light-dark(var(--mps-sys-orange-A400), var(--mps-sys-orange-A400));
+  --mps-sys-warn-A700: light-dark(var(--mps-sys-orange-A700), var(--mps-sys-orange-A700));
+
+  --mps-sys-warn: light-dark(var(--mps-sys-orange-600), var(--mps-sys-orange-600));
+  --mps-sys-on-warn: light-dark(var(--mps-sys-orange-50), var(--mps-sys-orange-50));
+  --mps-sys-warn-container: light-dark(var(--mps-sys-orange-400), var(--mps-sys-orange-400));
+  --mps-sys-on-warn-container: light-dark(var(--mps-sys-orange-700), var(--mps-sys-orange-700));
+  --mps-sys-warn-fixed: light-dark(var(--mps-sys-orange-500), var(--mps-sys-orange-500));
+  --mps-sys-on-warn-fixed: light-dark(var(--mps-sys-orange-950), var(--mps-sys-orange-950));
+  --mps-sys-warn-fixed-dim: light-dark(var(--mps-sys-orange-600), var(--mps-sys-orange-600));
+  --mps-sys-on-warn-fixed-dim: light-dark(var(--mps-sys-orange-950), var(--mps-sys-orange-950));
+
+  /* ----------------------- SUCCESS COLORS -----------------------> */
+  --mps-sys-success-50: light-dark(var(--mps-sys-green-50), var(--mps-sys-green-50));
+  --mps-sys-success-100: light-dark(var(--mps-sys-green-100), var(--mps-sys-green-100));
+  --mps-sys-success-200: light-dark(var(--mps-sys-green-200), var(--mps-sys-green-200));
+  --mps-sys-success-300: light-dark(var(--mps-sys-green-300), var(--mps-sys-green-300));
+  --mps-sys-success-400: light-dark(var(--mps-sys-green-400), var(--mps-sys-green-400));
+  --mps-sys-success-500: light-dark(var(--mps-sys-green-500), var(--mps-sys-green-500));
+  --mps-sys-success-600: light-dark(var(--mps-sys-green-600), var(--mps-sys-green-600));
+  --mps-sys-success-700: light-dark(var(--mps-sys-green-700), var(--mps-sys-green-700));
+  --mps-sys-success-800: light-dark(var(--mps-sys-green-800), var(--mps-sys-green-800));
+  --mps-sys-success-900: light-dark(var(--mps-sys-green-900), var(--mps-sys-green-900));
+  --mps-sys-success-A100: light-dark(var(--mps-sys-green-A100), var(--mps-sys-green-A100));
+  --mps-sys-success-A200: light-dark(var(--mps-sys-green-A200), var(--mps-sys-green-A200));
+  --mps-sys-success-A400: light-dark(var(--mps-sys-green-A400), var(--mps-sys-green-A400));
+  --mps-sys-success-A700: light-dark(var(--mps-sys-green-A700), var(--mps-sys-green-A700));
+
+  --mps-sys-success: light-dark(var(--mps-sys-green-600), var(--mps-sys-green-600));
+  --mps-sys-on-success: light-dark(var(--mps-sys-green-50), var(--mps-sys-green-50));
+  --mps-sys-success-container: light-dark(var(--mps-sys-green-400), var(--mps-sys-green-400));
+  --mps-sys-on-success-container: light-dark(var(--mps-sys-green-700), var(--mps-sys-green-700));
+  --mps-sys-success-fixed: light-dark(var(--mps-sys-green-500), var(--mps-sys-green-500));
+  --mps-sys-on-success-fixed: light-dark(var(--mps-sys-green-950), var(--mps-sys-green-950));
+  --mps-sys-success-fixed-dim: light-dark(var(--mps-sys-green-600), var(--mps-sys-green-600));
+  --mps-sys-on-success-fixed-dim: light-dark(var(--mps-sys-green-950), var(--mps-sys-green-950));
+}

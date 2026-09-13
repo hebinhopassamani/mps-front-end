@@ -1,5 +1,5 @@
 <div class="morphus-dialog-title flex flex-row items-center justify-start">
-  <span [style.color]="data?.iconColor" class="material-symbols-rounded text-[35px] ml-4">{{ data?.icon }}</span>
+  <mat-icon>{{ data?.icon }}</mat-icon>
   <h2 class="mt-1">{{ data?.title }}</h2>
 </div>
 <hr class="title-row" />
@@ -15,16 +15,15 @@
     }
   </span>
 </mat-dialog-content>
-
-<mat-dialog-actions align="end">
+<mat-dialog-actions [align]="'end'">
   @if (data.actionConfig) {
-    <button mat-raised-button [class]="`${data?.actionConfig?.actionSeverity} mps-button h-10 min-w-32 text-xl`" [disabled]="!confirm" (click)="onConfirm()">
-      <span class="material-symbols-rounded">{{ data?.actionConfig?.actionIcon }}</span>
-      {{ data?.actionConfig?.actionText }}
+    <button matButton="filled" [class]="`${data?.actionConfig?.actionSeverity} mps-button h-10 min-w-32 text-xl`" [disabled]="!confirm" (click)="onConfirm()">
+      <mat-icon>{{ data?.actionConfig?.actionIcon }}</mat-icon>
+      <span>{{ data?.actionConfig?.actionText }}</span>
     </button>
   }
-  <button mat-raised-button [class]="`${data?.closeSeverity} mps-button h-10 min-w-32 text-xl`" (click)="onclose()">
-    <span class="material-symbols-rounded">{{ data?.closeIcon }}</span>
+  <button matButton="filled" [class]="`${data?.closeSeverity} mps-button h-10 min-w-32 text-xl`" (click)="onclose()">
+    <mat-icon>{{ data?.closeIcon }}</mat-icon>
     <span>{{ data.closeText }}</span>
   </button>
 </mat-dialog-actions>

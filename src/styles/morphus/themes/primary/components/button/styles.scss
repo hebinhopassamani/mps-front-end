@@ -1,0 +1,5 @@
+@use 'classes';
+
+.teste {
+  @extend .bg-warn, .text-on-warn !optional;  
+}

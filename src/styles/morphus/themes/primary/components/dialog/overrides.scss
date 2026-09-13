@@ -1,0 +1,10 @@
+@use '@angular/material' as mat;
+
+.info {
+  @include mat.dialog-overrides(
+    (
+      container-color: var(--mps-dialog-container),
+      subhead-color: red,
+    )
+  );
+}
