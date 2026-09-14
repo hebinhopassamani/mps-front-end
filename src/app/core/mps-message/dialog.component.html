@@ -1,12 +1,13 @@
-<div class="morphus-dialog-title flex flex-row items-center justify-start">
-  <mat-icon>{{ data?.icon }}</mat-icon>
-  <h2 class="mt-1">{{ data?.title }}</h2>
+<div class="mps-dialog-title flex flex-row items-center justify-start">
+  <button matIconButton (click)="onclose()">
+    <mat-icon>{{ data?.icon }}</mat-icon>
+  </button>
+  <h2 mat-dialog-title>{{ data?.title }}</h2>
 </div>
-<hr class="title-row" />
 <mat-dialog-content>
-  <span class="morphus-dialog-content h-full flex flex-col justify-center items-center">
+  <span class="mps-dialog-content h-full flex flex-col justify-center items-center">
     <span class="h-full flex-auto flex flex-col justify-center items-center">
-      <p class="messagem">{{ data?.message }}</p>
+      <p class="mps-dialog-message">{{ data?.message }}</p>
     </span>
     @if (data.actionConfig?.dobbleConfirmation) {
       <mat-checkbox class="self-start" [checked]="confirm" (change)="onConfirmChange($event.checked)">

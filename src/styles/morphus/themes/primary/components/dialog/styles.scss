@@ -1,196 +1,196 @@
-.primary .mat-mdc-dialog-surface {
-  box-shadow: var(--mat-sys-level5);
-  background-color: var(--mps-dialog-container) !important;
-  border: 3px solid var(--mps-dialog-border);
-  p {
-    color: var(--mps-on-dialog-title-container) !important;
-  }
-  .morphus-dialog-title {
-    background-color: var(--mps-dialog-title-container) !important;
-    color: var(--mps-on-dialog-title-container) !important;
-    h2 {
-      color: var(--mps-on-dialog-title-container) !important;
-    }
-  }
-  hr {
-    border: 1px solid var(--mps-dialog-title-row);
-  }
-}
+// .primary .mat-mdc-dialog-surface {
+//   box-shadow: var(--mat-sys-level5);
+//   background-color: var(--mps-dialog-container) !important;
+//   border: 3px solid var(--mps-dialog-border);
+//   p {
+//     color: var(--mps-on-dialog-title-container) !important;
+//   }
+//   .mps-dialog-title {
+//     background-color: var(--mps-dialog-title-container) !important;
+//     color: var(--mps-on-dialog-title-container) !important;
+//     h2 {
+//       color: var(--mps-on-dialog-title-container) !important;
+//     }
+//   }
+//   hr {
+//     border: 1px solid var(--mps-dialog-title-row);
+//   }
+// }
 
-.secondary .mat-mdc-dialog-surface {
-  box-shadow: var(--mat-sys-level5);
-  background-color: var(--mps-dialog-container) !important;
-  border: 3px solid var(--mps-dialog-border);
-  p {
-    color: var(--mps-on-dialog-title-container) !important;
-  }
-  .morphus-dialog-title {
-    background-color: var(--mps-dialog-title-container) !important;
-    color: var(--mps-on-dialog-title-container) !important;
-    h2 {
-      color: var(--mps-on-dialog-title-container) !important;
-    }
-  }
-  hr {
-    border: 1px solid var(--mps-dialog-title-row);
-  }
-}
+// .secondary .mat-mdc-dialog-surface {
+//   box-shadow: var(--mat-sys-level5);
+//   background-color: var(--mps-dialog-container) !important;
+//   border: 3px solid var(--mps-dialog-border);
+//   p {
+//     color: var(--mps-on-dialog-title-container) !important;
+//   }
+//   .mps-dialog-title {
+//     background-color: var(--mps-dialog-title-container) !important;
+//     color: var(--mps-on-dialog-title-container) !important;
+//     h2 {
+//       color: var(--mps-on-dialog-title-container) !important;
+//     }
+//   }
+//   hr {
+//     border: 1px solid var(--mps-dialog-title-row);
+//   }
+// }
 
-.tertiary .mat-mdc-dialog-surface {
-  box-shadow: var(--mat-sys-level5);
-  background-color: var(--mps-dialog-container) !important;
-  border: 3px solid var(--mps-dialog-border);
-  p {
-    color: var(--mps-on-dialog-title-container) !important;
-  }
-  .morphus-dialog-title {
-    background-color: var(--mps-dialog-title-container) !important;
-    color: var(--mps-on-dialog-title-container) !important;
-    h2 {
-      color: var(--mps-on-dialog-title-container) !important;
-    }
-  }
-  hr {
-    border: 1px solid var(--mps-dialog-title-row);
-  }
-}
+// .tertiary .mat-mdc-dialog-surface {
+//   box-shadow: var(--mat-sys-level5);
+//   background-color: var(--mps-dialog-container) !important;
+//   border: 3px solid var(--mps-dialog-border);
+//   p {
+//     color: var(--mps-on-dialog-title-container) !important;
+//   }
+//   .mps-dialog-title {
+//     background-color: var(--mps-dialog-title-container) !important;
+//     color: var(--mps-on-dialog-title-container) !important;
+//     h2 {
+//       color: var(--mps-on-dialog-title-container) !important;
+//     }
+//   }
+//   hr {
+//     border: 1px solid var(--mps-dialog-title-row);
+//   }
+// }
 
-.surface .mat-mdc-dialog-surface {
-  box-shadow: var(--mat-sys-level5);
-  background-color: var(--mps-dialog-container) !important;
-  border: 3px solid var(--mps-dialog-border);
-  p {
-    color: var(--mps-on-dialog-title-container) !important;
-  }
-  .morphus-dialog-title {
-    background-color: var(--mps-dialog-title-container) !important;
-    color: var(--mps-on-dialog-title-container) !important;
-    h2 {
-      color: var(--mps-on-dialog-title-container) !important;
-    }
-  }
-  hr {
-    border: 1px solid var(--mps-dialog-title-row);
-  }
-}
+// .surface .mat-mdc-dialog-surface {
+//   box-shadow: var(--mat-sys-level5);
+//   background-color: var(--mps-dialog-container) !important;
+//   border: 3px solid var(--mps-dialog-border);
+//   p {
+//     color: var(--mps-on-dialog-title-container) !important;
+//   }
+//   .mps-dialog-title {
+//     background-color: var(--mps-dialog-title-container) !important;
+//     color: var(--mps-on-dialog-title-container) !important;
+//     h2 {
+//       color: var(--mps-on-dialog-title-container) !important;
+//     }
+//   }
+//   hr {
+//     border: 1px solid var(--mps-dialog-title-row);
+//   }
+// }
 
-.warn .mat-mdc-dialog-surface {
-  box-shadow: var(--mat-sys-level5);
-  background-color: var(--mps-dialog-container) !important;
-  border: 3px solid var(--mps-dialog-border);
-  p {
-    color: var(--mps-on-dialog-title-container) !important;
-  }
-  .morphus-dialog-title {
-    background-color: var(--mps-dialog-title-container) !important;
-    color: var(--mps-on-dialog-title-container) !important;
-    h2 {
-      color: var(--mps-on-dialog-title-container) !important;
-    }
-  }
-  hr {
-    border: 1px solid var(--mps-dialog-title-row);
-  }
-}
+// .warn .mat-mdc-dialog-surface {
+//   box-shadow: var(--mat-sys-level5);
+//   background-color: var(--mps-dialog-container) !important;
+//   border: 3px solid var(--mps-dialog-border);
+//   p {
+//     color: var(--mps-on-dialog-title-container) !important;
+//   }
+//   .mps-dialog-title {
+//     background-color: var(--mps-dialog-title-container) !important;
+//     color: var(--mps-on-dialog-title-container) !important;
+//     h2 {
+//       color: var(--mps-on-dialog-title-container) !important;
+//     }
+//   }
+//   hr {
+//     border: 1px solid var(--mps-dialog-title-row);
+//   }
+// }
 
-.info .mat-mdc-dialog-surface {
-  box-shadow: var(--mat-sys-level5);
-  background-color: var(--mps-dialog-container) !important;
-  border: 3px solid var(--mps-dialog-border);
-  p {
-    color: var(--mps-on-dialog-title-container) !important;
-  }
-  .morphus-dialog-title {
-    background-color: var(--mps-dialog-title-container) !important;
-    color: var(--mps-on-dialog-title-container) !important;
-    h2 {
-      color: var(--mps-on-dialog-title-container) !important;
-    }
-  }
-  hr {
-    border: 1px solid var(--mps-dialog-title-row);
-  }
-}
+// .info2 .mat-mdc-dialog-surface {
+//   box-shadow: var(--mat-sys-level5);
+//   background-color: var(--mps-dialog-container) !important;
+//   border: 3px solid var(--mps-dialog-border);
+//   p {
+//     color: var(--mps-on-dialog-title-container) !important;
+//   }
+//   .mps-dialog-title {
+//     background-color: var(--mps-dialog-title-container) !important;
+//     color: var(--mps-on-dialog-title-container) !important;
+//     h2 {
+//       color: var(--mps-on-dialog-title-container) !important;
+//     }
+//   }
+//   hr {
+//     border: 1px solid var(--mps-dialog-title-row);
+//   }
+// }
 
-.success .mat-mdc-dialog-surface {
-  box-shadow: var(--mat-sys-level5);
-  background-color: var(--mps-dialog-container) !important;
-  border: 3px solid var(--mps-dialog-border);
-  p {
-    color: var(--mps-on-dialog-title-container) !important;
-  }
-  .morphus-dialog-title {
-    background-color: var(--mps-dialog-title-container) !important;
-    color: var(--mps-on-dialog-title-container) !important;
-    h2 {
-      color: var(--mps-on-dialog-title-container) !important;
-    }
-  }
-  hr {
-    border: 1px solid var(--mps-dialog-title-row);
-  }
-}
+// .success .mat-mdc-dialog-surface {
+//   box-shadow: var(--mat-sys-level5);
+//   background-color: var(--mps-dialog-container) !important;
+//   border: 3px solid var(--mps-dialog-border);
+//   p {
+//     color: var(--mps-on-dialog-title-container) !important;
+//   }
+//   .mps-dialog-title {
+//     background-color: var(--mps-dialog-title-container) !important;
+//     color: var(--mps-on-dialog-title-container) !important;
+//     h2 {
+//       color: var(--mps-on-dialog-title-container) !important;
+//     }
+//   }
+//   hr {
+//     border: 1px solid var(--mps-dialog-title-row);
+//   }
+// }
 
-.alert .mat-mdc-dialog-surface {
-  box-shadow: var(--mat-sys-level5);
-  background-color: var(--mps-dialog-container) !important;
-  border: 3px solid var(--mps-dialog-border);
-  p {
-    color: var(--mps-on-dialog-title-container) !important;
-  }
-  .morphus-dialog-title {
-    background-color: var(--mps-dialog-title-container) !important;
-    color: var(--mps-on-dialog-title-container) !important;
-    h2 {
-      color: var(--mps-on-dialog-title-container) !important;
-    }
-  }
-  hr {
-    border: 1px solid var(--mps-dialog-title-row);
-  }
-}
+// .alert .mat-mdc-dialog-surface {
+//   box-shadow: var(--mat-sys-level5);
+//   background-color: var(--mps-dialog-container) !important;
+//   border: 3px solid var(--mps-dialog-border);
+//   p {
+//     color: var(--mps-on-dialog-title-container) !important;
+//   }
+//   .mps-dialog-title {
+//     background-color: var(--mps-dialog-title-container) !important;
+//     color: var(--mps-on-dialog-title-container) !important;
+//     h2 {
+//       color: var(--mps-on-dialog-title-container) !important;
+//     }
+//   }
+//   hr {
+//     border: 1px solid var(--mps-dialog-title-row);
+//   }
+// }
 
-.error .mat-mdc-dialog-surface {
-  box-shadow: var(--mat-sys-level5);
-  background-color: var(--mps-dialog-container) !important;
-  border: 3px solid var(--mps-dialog-border);
-  p {
-    color: var(--mps-on-dialog-title-container) !important;
-  }
-  .morphus-dialog-title {
-    background-color: var(--mps-dialog-title-container) !important;
-    color: var(--mps-on-dialog-title-container) !important;
-    h2 {
-      color: var(---mps-on-dialog-title-container) !important;
-    }
-  }
-  hr {
-    border: 1px solid var(--mps-dialog-title-row);
-  }
-}
-.mat-mdc-dialog-title {
-  padding: 0px 5px 0px 5px !important;
-}
+// .error .mat-mdc-dialog-surface {
+//   box-shadow: var(--mat-sys-level5);
+//   background-color: var(--mps-dialog-container) !important;
+//   border: 3px solid var(--mps-dialog-border);
+//   p {
+//     color: var(--mps-on-dialog-title-container) !important;
+//   }
+//   .mps-dialog-title {
+//     background-color: var(--mps-dialog-title-container) !important;
+//     color: var(--mps-on-dialog-title-container) !important;
+//     h2 {
+//       color: var(---mps-on-dialog-title-container) !important;
+//     }
+//   }
+//   hr {
+//     border: 1px solid var(--mps-dialog-title-row);
+//   }
+// }
+// .mat-mdc-dialog-title {
+//   padding: 0px 5px 0px 5px !important;
+// }
 
-.mat-mdc-dialog-surface {
-  h2 {
-    font-family: var(--mps-dialog-font-family) !important;
-    font-size: var(--mps-dialog-title-font-size) !important;
-    letter-spacing: var(--tracking-tightest);
-    font-weight: var(--mps-dialog-title-font-bold) !important;
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: flex-start !important;
-    align-items: center !important;
-    height: 55px !important;
-    margin-bottom: 4px !important;
-    margin-left: 10px !important;
-  }
-  p {
-    font-family: var(--mps-dialog-font-family) !important;
-    font-size: var(--mps-dialog-message-font-size) !important;
-    font-weight: var(--mps-dialog-message-font-bold) !important;
-    text-align: center;
-    line-height: var(--leading-7) !important;
-  }
-}
+// .mat-mdc-dialog-surface {
+//   h2 {
+//     font-family: var(--mps-dialog-font-family) !important;
+//     font-size: var(--mps-dialog-title-font-size) !important;
+//     letter-spacing: var(--tracking-tightest);
+//     font-weight: var(--mps-dialog-title-font-bold) !important;
+//     display: flex !important;
+//     flex-direction: row !important;
+//     justify-content: flex-start !important;
+//     align-items: center !important;
+//     height: 55px !important;
+//     margin-bottom: 4px !important;
+//     margin-left: 10px !important;
+//   }
+//   p {
+//     font-family: var(--mps-dialog-font-family) !important;
+//     font-size: var(--mps-dialog-message-font-size) !important;
+//     font-weight: var(--mps-dialog-message-font-bold) !important;
+//     text-align: center;
+//     line-height: var(--leading-7) !important;
+//   }
+// }

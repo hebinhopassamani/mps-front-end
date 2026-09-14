@@ -3,8 +3,33 @@
 .info {
   @include mat.dialog-overrides(
     (
-      container-color: var(--mps-dialog-container),
-      subhead-color: red,
+      container-color: var(--mps-sys-info-container),
+      subhead-font: var(--mat-sys-headline-medium-font),
+      subhead-color: var(--mps-sys-on-info-container),
+      subhead-size: var(--mat-sys-headline-medium-size),
+      subhead-weight: var(--mat-sys-headline-medium-weight),
+      supporting-text-color: var(--mps-sys-on-info-container),
+      supporting-text-font: var(--mat-sys-headline-medium-font),
+      supporting-text-size: var(--mat-sys-headline-medium-size),
+      supporting-text-weight: var(--mat-sys-headline-medium-weight),
+      container-elevation-shadow: var(--mat-sys-level5),
+      container-shape: var(--mat-sys-corner-extra-medium),
     )
   );
+
+  .mps-dialog-title {
+    background-color: var(--mps-sys-info-100) !important;
+    color: var(--mps-sys-on-info) !important;
+    border-bottom: 2px solid var(--mps-sys-outline)!important;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 4px 10px;
+
+    .mps-dialog-content{
+
+    }
+  }
 }
